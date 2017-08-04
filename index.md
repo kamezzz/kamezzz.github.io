@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/kamezzz/kamezzz.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kamezzz/kamezzz.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Glide.js | Simple, responsive and fast jquery carousel slider</title>
+		<meta name="description" content="Touch-friendly jQuery carousel slider. Designed to slide. No less, no more.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.min.css">
+	</head>
+	<style>
+		#i:hover{
+	background-image: url(hdImg_dbbcd124aa56d68e637f070f401c45641482923779433.jpg);}
+	#i{background-repeat: no-repeat;background-size: 100% 100%;}
+		.word{position: absolute;font-weight: bold;text-transform: uppercase;transition: 0.3s,transform 0.3s;backface-visibility:visible;border: 3px solid #fff;background-color:black;}
+		.word:hover{opacity: 3;transform: translateY(-50%) translateX(-50%) scale(1);display: block;background-color: aliceblue;transform: transparent;}
+		.black_overlay{display: noen;position: absolute;width: 100%;height: 100%;background-color: black;
+		                z-index: 1001;-moz-opacity:0.8;opacity: 0.8;filter: alpha(opacity=88);}
+		.white_content{display: none;position: absolute;top: 25%;left: 25%;width: 55%;height: 55%;
+		               padding: 20px;border: 10px solid purple;background-color: white;z-index: 1002;overflow: auto;}
+		
+		.w{position: absolute;font-weight: bold;text-transform: uppercase; transition: 0.3s, transform 0.3s; backface-visibility: visible; border: 3px solid #fff; background-color: aquamarine;top:0;}
+		.w:hover{opacity:3;transform: translateY(-50%) translateX(-50%) scale(1); display: block;background-color: yellowgreen;transform: transparent;}
+		
+		.a{position: absolute;font-weight: bold;text-transform: uppercase; transition: 0.3s, transform 0.3s; backface-visibility: visible; border: 3ps solid #fff; background-color: thistle;top: 0;}
+		.a:hover{opacity: 3;transform: translateY(-50%) translateX(-50%) scale(1); display: block;background-color: beige;transform: transparent;}
+		
+		.s{position: absolute;font-weight: bold;text-transform: uppercase;transition: 0.3s, transform 0.3s; backface-visibility: visible; border: 3px solid #fff; background-color: deepskyblue; top: 0;}
+		.s:hover{opacity: 3;transform: translateY(-50%) translateX(-50%) scale(1); display: block;background-color:chocolate;transform: transparent;}
+		
+		.u{position: absolute;font-weight: bold;text-transform: uppercase;transition: 0.3s, transform 0.3s; backface-visibility: visible;border: 3px solid #fff; background-color: slategrey;top: 0;}
+		.u:hover{opacity: 3;transform: translateY(-50%) translateX(-50%) scale(1); display: block;background-color: steelblue;transform: transparent;}
+		
+		#u:hover{background-image: url(mmexport1496545530997.jpg);}
+		#u{background-repeat: no-repeat;background-size: 100% 100%;}
+		#a:hover{background-image: url(../a/hdImg_57ae113921e88bab341ba44a96708c831497144584756.jpg);}
+		#s:hover{background-image: url(8fea66bbjw1e8o14lwyuij20rr0ktjvc.jpg);}
+	</style>
+	<body>
+		<main id="content" class="content page-index">
+			<header id="header" class="header"> </header>
+	<section class="section">
+		<div class="section__row">
+			<div class="section__part narrow">
+				<div class="section__lead">
+				  <h1>People, <br>
+				    behind the pictures.</h1>
+				</div>
+			</div>
+		</div>
+		<div class="section__row">
+			<div class="section__part">
+				<div id="Glide" class="slider glide is-loading">
+	<div class="slider__arrows glide__arrows">
+		<button class="slider__arrow glide__arrow next" data-glide-dir=">">next</button>
+		<button class="slider__arrow glide__arrow prev" data-glide-dir="<">prev</button>
+	</div>
+	
+	<div class="slider__wrapper glide__wrapper is-visible">
+		<ul class="slider__track glide__track">
+			    <li class="slider__slide glide__slide">
+					<div class="bg i-1" id="i"><a href="bear.html"><button class="word">B</button></a></div>
+			  </li>
+			    <li class="slider__slide glide__slide">
+					<img src="235082-13100915505653.jpg" class="bg i-2">
+					<button class="w">w</button>
+				</li>
+			    <li class="slider__slide glide__slide">
+					<div class="bg i-3" id="a"><a href="../a/text1 - 副本.html"><button class="a">a</button></a></div>
+					
+				</li>
+			    <li class="slider__slide glide__slide">
+					<div class="bg i-4" id="s"><a href="../s/text1 - 副本.html"><button class="s">s</button></a></div>
+				</li>
+			    <li class="slider__slide glide__slide">
+					<div class="bg i-5" id="u"><a href="../u/u - 副本 (2) - 副本.html"><button class="u">u</button></a></div>
+				</li>
+		</ul>
+	</div>
+	<div class="slider__bullets glide__bullets"></div>
+</div>
+			</div>
+		</div>
+		<div class="section__row">
+			<div class="section__part narrow">
+				<div class="section__desc">
+				  <h3>One letter represents one person. <br>
+				    Click and read the stories.</h3>
+				</div>
+				<div class="section__desc"><a href="#" class="button ghost purple lg"> <em class="fa fa-hand-o-right"></em> &nbsp;Go home, this way</a></div>
+			</div>
+		</div>
+	</section>
+		</main>
+		<script src="jst.js"></script>
+		<script async src="Untitled-5.js"></script>
+	</body>
+</html>
