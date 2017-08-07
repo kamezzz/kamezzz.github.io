@@ -31,49 +31,49 @@ pre,textarea {
     font-family: Karla;
     font-style: normal;
     font-weight: 400;
-    src: local('Karla'),local('Karla-Regular'),url(font/Vu9Dx8oyiuqEkuIyR3OPDQ.ttf) format('truetype')
+    src: local('Karla'),local('Karla-Regular'),url(kamezzz.github.io/font/Vu9Dx8oyiuqEkuIyR3OPDQ.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Karla;
     font-style: normal;
     font-weight: 700;
-    src: local('Karla Bold'),local('Karla-Bold'),url(font/6rYv84POalfstX0SkMI-EvesZW2xOQ-xsNqO47m55DA.ttf) format('truetype')
+    src: local('Karla Bold'),local('Karla-Bold'),url(kamezzz.github.io/font/6rYv84POalfstX0SkMI-EvesZW2xOQ-xsNqO47m55DA.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Karla;
     font-style: italic;
     font-weight: 400;
-    src: local('Karla Italic'),local('Karla-Italic'),url(font/T7MBC_6JTkW2ZBbjf0rXXw.ttf) format('truetype')
+    src: local('Karla Italic'),local('Karla-Italic'),url(kamezzz.github.io/font/T7MBC_6JTkW2ZBbjf0rXXw.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Karla;
     font-style: italic;
     font-weight: 700;
-    src: local('Karla Bold Italic'),local('Karla-BoldItalic'),url(font/VZ08RdiotRdV1D0ewK-mxC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')
+    src: local('Karla Bold Italic'),local('Karla-BoldItalic'),url(kamezzz.github.io/font/VZ08RdiotRdV1D0ewK-mxC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Oxygen;
     font-style: normal;
     font-weight: 300;
-    src: local('Oxygen Light'),local('Oxygen-Light'),url(font/yVHpdQrmTj9Kax1tmFSx2qCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
+    src: local('Oxygen Light'),local('Oxygen-Light'),url(kamezzz.github.io/font/yVHpdQrmTj9Kax1tmFSx2qCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Oxygen;
     font-style: normal;
     font-weight: 400;
-    src: local('Oxygen'),local('Oxygen-Regular'),url(font/f8OBjBbevvywgbyJOxlO7Q.ttf) format('truetype')
+    src: local('Oxygen'),local('Oxygen-Regular'),url(kamezzz.github.io/font/f8OBjBbevvywgbyJOxlO7Q.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Oxygen;
     font-style: normal;
     font-weight: 700;
-    src: local('Oxygen Bold'),local('Oxygen-Bold'),url( font/yVHpdQrmTj9Kax1tmFSx2qCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
+    src: local('Oxygen Bold'),local('Oxygen-Bold'),url(kamezzz.github.io/font/yVHpdQrmTj9Kax1tmFSx2qCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
 }
 
 /*!
@@ -82,8 +82,8 @@ pre,textarea {
  */
 @font-face {
     font-family: FontAwesome;
-    src: url(font/fontawesome-webfont.eot);
-    src: url(font/fontawesome-webfont.eot?#iefix) format('embedded-opentype'),url(font/fontawesome-webfont.woff2) format('woff2'),url(font/fontawesome-webfont.woff) format('woff'),url(font/fontawesome-webfont.ttf) format('truetype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular) format('svg');
+    src: url(kamezzz.github.io/font/fontawesome-webfont.eot);
+    src: url(kamezzz.github.io/font/fontawesome-webfont.eot?#iefix) format('embedded-opentype'),url(kamezzz.github.io/font/fontawesome-webfont.woff2) format('woff2'),url(font/fontawesome-webfont.woff) format('woff'),url(font/fontawesome-webfont.ttf) format('truetype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular) format('svg');
     font-weight: 400;
     font-style: normal
 }
