@@ -1,0 +1,64 @@
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+button.et-rotate {
+  position: absolute;
+  left: 10%;
+  z-index: 999;
+}
+
+.et-wrapper {
+  height: 100%;
+ width: 100%;
+ position: absolute;
+	top: 0%;
+	right: 0%;
+}
+
+.et-page {
+  padding: 8px;
+}
+.et-page:nth-child(1) {
+  background: #023;
+}
+
+.et-page:nth-child(2) {
+  background: black;
+}
+
+.et-page:nth-child(3) {
+  background: #60d7a9;
+}
+
+.et-page:nth-child(4) {
+  background: #fdc162;
+}
+
+.et-page:nth-child(5) {
+	background: #fd6a62;
+	width: 0%;
+}
+.code-demos .et-wrapper{
+  margin: 0px;
+}
+
+.et-page button.et-rotate {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+		.wrap {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  margin: 70px auto 0;
+	text-align: justify;
+	border: 3px dashed white;
+	padding: 5px 30px 15px 30px; 
+			position: relative;
+
+}
