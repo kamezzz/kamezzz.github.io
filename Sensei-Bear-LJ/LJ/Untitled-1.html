@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="elementTransitions.min.css">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="../demo/demo.css">
+<link rel="stylesheet" href="../../../animate.css-master/animate.css-master/animate.css">
+
+<script src="jquery.min.js"></script>
+<script src="angular.min.js"></script>
+
+<script src="elementTransitions.min.js"></script>
+<script src="../demo/demo.js"></script>
+<style>
+	@font-face{font-family:snow;src: url( ../../../FirstChristmas.eot);}
+	@font-face{font-family:light;src: url( ../../../xmaslght.ttf);}
+	@font-face{font-family:decoration;src: url( ../../../JandaChristmasDoodles.ttf);}
+	@font-face{font-family:xmas;src: url( ../../../ToneRegular.ttf);}
+	h1{
+	font-family: light;
+	color: white;
+	z-index: 999;
+	position: absolute;
+	transform: rotate(180deg);
+	font-size: 900%;
+	margin-left: -2%;
+	letter-spacing: 12px;
+	top: 0%;
+	animation: change 12s linear 0s infinite;	
+}
+	@keyframes change{
+		0%{color: black;}
+		25%{color: orange;}
+		50%{color: lightblue;}
+		75%{color: lime;}
+		100%{color: white;}
+	}
+	h2{font-family: decoration;color: white;}
+	.star{font-family:decoration;color: pink;}
+	.star1{font-family: decoration;color: red;}
+	.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 50%;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-image: -webkit-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px, #ffffff 0px, #ffffff 40px, #85adff 0px, #85adff 60px, #ffffff 0px, #ffffff 80px);
+  background-image: -moz-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px, #ffffff 0px, #ffffff 40px, #85adff 0px, #85adff 60px, #ffffff 0px, #ffffff 80px);
+  background-image: repeating-linear-gradient(150deg, #ff6969, #ff6969 20px, #ffffff 0px, #ffffff 40px, #85adff 0px, #85adff 60px, #ffffff 0px, #ffffff 80px);
+  z-index: 20;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+	.tiny{position: absolute;width: 15%;left: 0%;top: 0%;}
+	a.top_tooltip{display: inline;position: relative;}
+	a.top_tooltip span{width: 400px;
+		height: 400px;
+		color: dark;
+		 background-image: -webkit-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px, #ffffff 0px, #ffffff 40px, #85adff 0px, #85adff 60px, #ffffff 0px, #ffffff 80px);
+  background-image: -moz-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px, #ffffff 0px, #ffffff 40px, #85adff 0px, #85adff 60px, #ffffff 0px, #ffffff 80px);
+  background-image: repeating-linear-gradient(150deg, #ff6969, #ff6969 20px, #ffffff 0px, #ffffff 40px, #85adff 0px, #85adff 60px, #ffffff 0px, #ffffff 80px);
+		position: absolute;
+		padding: 5px;
+		visibility: hidden;
+		border-radius: 10px;
+	}
+	a.top_tooltip span:after{content: '';
+	    position: absolute;
+		top: 100%;
+		right: 8%;
+		margin-left: 0vw;
+		width: 0;
+		height: 0;
+		border-top: 10px solid white;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+	}
+	
+	a:hover.top_tooltip span{visibility: visible;
+	    opacity: 8;
+		bottom:75px;
+	    left: -355px;
+		z-index: 999;}
+	.wrapper{position: absolute;bottom: 0%;}
+		.wrapper img{
+	width: 96%;
+	height: 96%;
+	position: absolute;
+	left: 2%;
+	top: 2%;
+		border-radius: 10px;
+}
+.light{animation: flicker 3.5s linear 0s infinite;opacity: 0;position: absolute;bottom: 9%;left: 96%;width: 100%;}
+	@keyframes flicker{
+		0%{opacity: 0.4;filter: brightness(350%);-webkit-filter:brightness(350%);}
+       25%{opacity: 0.8;}
+		50%{opacity: 0.6;}
+		75{opacity: 0.4;}
+		100%{opacity: 0.2;}
+	}
+	
+	</style>
+</head>
+
+<body>
+ <div class="demo">
+       
+        <div class="et-wrapper span4">
+          <div class="et-page">
+          <div class="wrap">
+          <p style="font-size: 35px;word-spacing: 13px;line-height: 35px;margin-top: 35px;font-family:xmas;border: 15px solid snow;padding: 35px;color:;text-decoration: underline;font-weight: 300;background: cyan;">
+To LiJing : I don't know how time flies until the moment I turn back to look at the time we had in high school. In those three years, we had jokes but made with every one's bad mind; we had laughters from making jokes; and we had tears, which never dropped from eyes but from heart instead. Perhaps in these three years not studying at school, I missed every one so much that I grasped what I should do to cherish everything I have, not chatting but kind of, not writing emails but similar; right it's keeping in touch with every one from time to time. Life is dark; but with friends, classmates, family, whatever has colors or no colors in this world can be decorations to beautify our life, then life is sparky. By the way, you may feel via these words that my English is the same as before, even I myself feel entirely hard to squeeze a word from my mind.</p><button class="et-rotate btn" et-in="rotateSlideIn" et-out="rotateSlideOut"><div class="animated infinite bounce">Next<span class="star">i</span></div></button><h2><div class="animated infinite headShake">^&*1234567890tzxcvbnm</div></h2></div>
+        <h1>1234567890123456789012345678901234567890</h1>    
+         </div>
+         <div class="et-page">
+          <div class="wrap">
+            <p style="color: black;font-size: 35px;word-spacing: 13px;margin-top: 35px;font-family: xmas;border: 15px solid snow;padding: 35px;line-height: 35px;background: cyan;font-weight: 300;text-decoration: underline;">Remember what Kamen Rider we watched every night "at the coner of my bed" in dorm? Speaking of Kamen Rider, thanks to it, we became good friends and talked about that in our sleeping time. Hee, and that <strong>"Hoar of OOO". </strong> Words are tough to be made when somebody you want to talk to as if he/she was in front of you, and raindrops came out dramatically. Friends shouldn't be like balloons, no matter how hard a person with lots of senses tries, the balloons still fly away. Juat like the song tells me: "Sobbing cannot reverse the situation of parting, because we all have known that it will come sooner or later." So, to the end, I hope you'll be on a journey to find a job you're passonate about. And.............  There are thousands of words I can't write down as I don't want any words to come with tears.</p>
+           <button class="et-rotate btn" et-in="rotateSlideIn" et-out="rotateSlideOut"><div class="animated infinite lightSpeedIn">Back<span class="star1">3</span></div></button>
+           <embed class="tiny" src="../../../1498797859_84.svg">
+           <div class="wrapper animated infinite bounce"><a class="top_tooltip" href="#"><embed src="../../../1498802621_27.svg" style="width: 20%;"><span>
+         	<img src="../../../mmexport1498393371077.jpg" width="100%"></span></a></div>
+         	<div class="light"><embed src="../../../1498808656__star.svg" width="10%"></div>
+         	<img src="../../../65cfefa22f665cca357147c3bb1a2219.png" width="15%" style="position: absolute;right: -9%;bottom:-1%;">
+           </div>
+           <embed src="../../../2510013346_lanrentuku.com/图层 0.svg" style="position: absolute;top: 0;left: 5%;">
+           <embed src="../../../2510013346_lanrentuku.com/1.svg" style="position: absolute;top: 0;left: 10%;">
+           <embed src="../../../2510013346_lanrentuku.com/2.svg" style="position: absolute;top: 0;left: 15%;z-index: -99;" >
+           <embed src="../../../2510013346_lanrentuku.com/3.svg" style="position: absolute;top: 0;left: 20%;z-index: -99;">
+           <embed src="../../../2510013346_lanrentuku.com/4.svg" style="position: absolute;top: 0;left: 25%;z-index: -99;">
+           <embed src="../../../2510013346_lanrentuku.com/5.svg" style="position: absolute;top: 0;left: 30%;z-index: -99;">
+           <embed src="../../../2510013346_lanrentuku.com/6.svg" style="position: absolute;bottom: 5%;right: 40%;height:15%;"  class="animated infinite swing">
+           <embed src="../../../2510013346_lanrentuku.com/7.svg" style="position: absolute;top: 0;left: 40%;">
+           <embed src="../../../2510013346_lanrentuku.com/8.svg" style="position: absolute;bottom: 5%;left: 45%;height:15%;"  class="animated infinite swing">
+           <embed src="../../../2510013346_lanrentuku.com/9.svg" style="position: absolute;bottom: 5%;left: 50%;height:15%"  class="animated infinite swing">
+           <embed src="../../../2510013346_lanrentuku.com/1.svg" style="position: absolute;top: 0;right: 10%;">
+           <embed src="../../../2510013346_lanrentuku.com/2.svg" style="position: absolute;top: 0;right: 15%;z-index: -99;">
+           <embed src="../../../2510013346_lanrentuku.com/3.svg" style="position: absolute;top: 0;right: 20%;z-index: -99;">
+           <embed src="../../../2510013346_lanrentuku.com/4.svg" style="position: absolute;top: 0;right: 25%;z-index: -99;">
+           <embed src="../../../2510013346_lanrentuku.com/5.svg" style="position: absolute;top: 0;right: 30%;z-index: -99;">
+           <embed src="../../../2510013346_lanrentuku.com/6.svg" style="position: absolute;bottom: 5%;right: 35%;height:15%;"  class="animated infinite swing">
+           <embed src="../../../2510013346_lanrentuku.com/7.svg" style="position: absolute;top: 0;right: 40%;">
+           <embed src="../../../2510013346_lanrentuku.com/8.svg" style="position: absolute;top: 0;right: 45%;height:15%;">
+           <embed src="../../../2510013346_lanrentuku.com/9.svg" style="position: absolute;top: 0;right: 50%;height:15%;">
+         </div>
+       </div>
+    </div>
+    <script src="../../../snowstormv144_20131208/snowstormv144_20131208/snowstorm.js"></script>
+    <script>
+	snowStorm.useTwinkleEffect = true;
+	snowStorm.vMaxX = 15;
+	snowStorm.vMaxY = 12;
+	snowStorm.autoStart = true;
+	</script>
+	<script src="../../../christmas_doodle/js/script.js"></script>
+</body>
+</html>
