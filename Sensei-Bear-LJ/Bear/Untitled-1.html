@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="elementTransitions.min.css">
+<link rel="stylesheet" href="demo.css">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jquery-sakura.css" type="text/css">
+<link rel="stylesheet" href="../animate.css-master/animate.css-master/animate.css">
+<link rel="stylesheet" href="webfontkit-20170707-195218/stylesheet.css">
+
+
+<script src="demo.js"></script>
+<script src="angular.min.js"></script>
+
+<script src="jquery.min.js"></script>
+<script src="elementTransitions.min.js"></script>
+
+
+<style>
+	body{
+		font-family: cogs_and_boltsregular;
+		font-size: 35px;
+		line-height: 45px;
+		text-align: justify;
+		word-spacing: 10px;
+	}
+	.flower1{color: pink;  width: 3px;
+  height: 3px;
+  opacity: .8;
+  left: 0px;
+  top: -5px;
+  position: absolute;animation: rotate 3.5s infinite ease-in-out;}
+	@keyframes rotate{
+		0%{color: pink;transform: translate3d(1px, 0px, 0);}
+		50%{color: crimson;transform: translate3d(20px, 0px, 0);}
+		100%{color: pink;transform: translate3d(12px, 0px, 0);}
+	}
+	.flip3D > .front{
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		background: white;
+		border-radius: 5px;
+		box-shadow: 2px 1px 35px 0px grey;
+		transform: perspective(60em) rotateY(0deg);
+		backface-visibility: hidden;
+		transition: transform .5s linear 0s;
+		bottom: -5%;
+		right: 10%;
+	}
+	.flip3D:hover{
+		animation-play-state: paused;
+	}
+	.flip3D > .back{
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		background-size: 100% 100%;
+		border-radius: 5px;
+		box-shadow: 1px 0.5px 0px 1px grey;
+		transform: perspective(60em) rotateY(180deg);
+		backface-visibility: hidden;
+		transition: transform .5s linear 0s;
+		bottom: -5%;
+		right: 10%;
+	}
+	.flip3D:hover > .front{
+		transform: perspective(60em) rotateY(-180deg);
+	}
+	.flip3D:hover > .back{
+		transform: perspective(60em) rotateY(0deg);
+	}
+	img{
+		background-size: 100% 100%;
+		width: 100%;
+		height: 100%;
+		border-radius:5px; 
+	}
+	p{text-decoration: underline;}
+    .btn {
+   color: #ac7049;
+   font-style: italic;
+   font-family: 'Playfair Display', serif;
+   position: absolute;
+   display: block;
+   padding: .375em;
+   border: 2px solid #ac7049;
+   background: transparent;
+   overflow: hidden;
+   width: 16.875em;
+   bottom: 80px;
+	width: 100px;
+	}
+	.btn:hover{background: transparent;}
+	</style>
+</head>
+
+<body>
+
+	
+	<div class="et-wrapper">
+		
+		<div class="et-page">
+			   <div class="wrap1">
+			   <div class="well-large2">
+			   <h1></h1>
+			   	<p>La^~^La^~^La~~~ ! Hm~Hm-Hm^ ! Woooo~~~ !</p>
+			   	<p>Humming the songs you taught me when I'm walking home alone. Seeing the crowd get on the bus, I always feel as if you were there saying this sentence to me: "You are the geek who is always hesitant to do something"!
+			   	Indeed, I am a stupid, dumb and fucky boy who relys on friends so much that I can't breathe when none of them stands next to me. Friends~~Friends~~Friends~~Mo~ni~~ca!! Do you believe in someone's quote that it says: "We met by chance, and we became friends by choice."? Perhaps you don't because you are science student, but I do. Moving back to our school time, we're those crazy students who talked and showed off our epic equipments in DNF day and night. Saying goodbye couldn't come with sadness; on the contrary, you said it with joy and smile before we parted.</p></div>
+			   	</div>
+			  <div class="flip3D animated bounce infinite">
+			   		<div class="back"><img src="hdImg_dbbcd124aa56d68e637f070f401c45641482923779433.jpg"></div>
+			   		<div class="front"><img src="Wedding-invitation-with-hand-painted-yellow-flowers/174.jpg"></div>
+			   	</div>
+				<button class="et-rotate btn" et-in="moveFromRight" et-out="fade" style="border-image: url( Aloha-background-with-watercolor-leaves/130991-OSC1S3-128.jpg);border-image-slice: 90 90;border-image-repeat: round;border-image-width: 5px;"><span class="animated fadeIn infinite">PAGE1</span> <span class="animated fadeIn infinite">NEXT</span></button>
+			
+			</div>
+	
+	
+	<div class="et-page">
+	    <div class="wrap">
+	    <div class="well-large">
+	    	<h1></h1>
+	    	<p>Life is like puzzle, it takes you the whole life to seek those pieces to complete your map. To enlarge the map, we need people as our comrades, including you, my friends. Ah!!! Since that time I borrowed a guitar from you, I truly and deeply understood what kind of pain and sorrow you're having. As you strum the guitar with your tough fingers, I sense that you're strumming it with your pain. Just only by doing it, so then can you feel a bit better. I remember you used to say this to me: "Come sit, read the book quietly, but not being a fool all the time." We laughed; We fought; We sneaked off in class; We absented to fool around; i can't how many things we did together.</p>
+	    	</div></div>
+    		<div class="flip3D animated bounce infinite">
+	    		<div class="back"><img src="mmexport1499261351607.jpg"></div>
+	    		<div class="front"><img src="Hand-drawn-floral-pattern-pastel-colors/79.jpg"></div>
+	    	</div>
+		<button class="et-rotate btn animated swing infinite" et-in="moveFromRight" et-out="moveToRightFade" style="color:sandybrown;border-image: url( background-of-tropical-watercolor-flowers_23-2147645548.jpg);border-image-slice: 90 90;border-image-repeat: stretch;border-image-width: 5px;">PAGE2 <span>NEXT</span></button>
+	</div>
+	
+	
+	<div class="et-page">
+       <div class="wrap2">
+       <div class="well-large1">
+	    <h1></h1>
+	    <p>
+	    	With a little wish of talking to you, I hope that time can go faster than ever, every day. Through HTML, through writing content on each page, I felt something unforgettable would properly come to me again. Touching words, I've
+	    	already forgotten what our English teacher taught; good grammar points, I haven't used any of them since I graduated from high school and we chose our own path to go forwards; writing methods, ha~~, I did hard to find all the words to format the content; but I still remember what you strongly taught me by that push. You always come to see me after coming home from your university; you always accompany me to be foolish; you guffaw not for seeing me, but for making dirty jokes with me. I love nostalgic things, old friends, old books and old times. We know friends cannot be around in our whole life, they somehow leave you alone. But truly, merely, I want to have a long talk with you. Friends are what we cannot use any words to describe about, but by strong friendships, can we understand their feelings without a letter.
+	    </p></div></div>
+	    <div class="flip3D animated headShake infinite">
+	    	<div class="back"><a class="demo-trigger" href="mmexport1497361565330.jpg"><img src="file:///C:/Users/Administrator/Desktop/s/b/mmexport1497361565330.jpg"></a></div>
+	    	<div class="front"><img src="Friendship-background-design/OLS6B40.jpg"></div>
+	    </div>
+		<button class="et-rotate btn animated tada infinite" et-in="scaleUp" et-out="scaleDown" style="color:blueviolet;border-image: url(arrow-made-flowers-shaped-grass-covered-multicolored-63434435.jpg);border-image-slice: 90 90;border-image-repeat: stretch;border-image-width: 5px;">PAGE3 <span>BACK</span></button>
+	</div>
+	</div>
+	
+	
+<script src="jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/sakura.min.js"></script>
+<script src="jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jquery-sakura.min.js"></script>
+<script>
+$(window).load(function () {
+    $('body').sakura();
+});
+</script>
+<script src="Luminous.min.js"></script>
+ <script>var demoTrigger = document.querySelector('.demo-trigger');
+new Luminous(demoTrigger);</script>
+</body>
+</html>
