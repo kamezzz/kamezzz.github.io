@@ -26,7 +26,7 @@ button.et-rotate {
 
 
 .et-page:nth-child(2) {
-  background: url(background-image-2.gif);
+  background: url(https://kamezzz.github.io/Sensei-Bear-LJ/Bear/background-image-2.gif);
 }
 
 .et-page:nth-child(3) {
@@ -62,7 +62,7 @@ button.et-rotate {
 	text-align: justify;
 	border: 30px solid black;
 			position: relative;
-     border-image: url( sunflower.svg) ;
+     border-image: url(https://kamezzz.github.io/Sensei-Bear-LJ/Bear/sunflower.svg) ;
 		border-image-slice: 90 90;
 			border-image-repeat: round;
 			border-image-width: 22px;
@@ -76,7 +76,7 @@ button.et-rotate {
 	text-align: justify;
 	border: 30px solid black;
 			position: relative;
-     border-image: url(zinnia.svg) ;
+     border-image: url(https://kamezzz.github.io/Sensei-Bear-LJ/Bear/zinnia.svg) ;
 		border-image-slice: 100 100;
 			border-image-repeat: round;
 			border-image-width: 22px;
@@ -89,7 +89,7 @@ button.et-rotate {
 	text-align: justify;
 	border: 30px solid black;
 			position: relative;
-     border-image: url( flower.svg) ;
+     border-image: url(https://kamezzz.github.io/Sensei-Bear-LJ/Bear/flower.svg) ;
 		border-image-slice: 100 100;
 			border-image-repeat: round;
 			border-image-width: 22px;
