@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Christmas Snow";
+  src: url("Christmas Snow.woff2") format("woff2"),
+       url("Christmas Snow.woff") format("woff"),
+       url("Christmas Snow.ttf") format("truetype"),
+       url("Christmas Snow.eot") format("embedded-opentype"),
+       url("Christmas Snow.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
