@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?f5zj78');
-  src:  url('fonts/icomoon.eot?f5zj78#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?f5zj78') format('truetype'),
-    url('fonts/icomoon.woff?f5zj78') format('woff'),
-    url('fonts/icomoon.svg?f5zj78#icomoon') format('svg');
+  src:  url('https://kamezzz.github.io/Auntie/icomoon.eot');
+  src:  url('https://kamezzz.github.io/Auntie/icomoon.eot#iefix') format('embedded-opentype'),
+    url('https://kamezzz.github.io/Auntie/icomoon.ttf') format('truetype'),
+    url('https://kamezzz.github.io/Auntie/icomoon.woff') format('woff'),
+    url('https://kamezzz.github.io/Auntie/icomoon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
