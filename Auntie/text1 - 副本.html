@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="201504151845/201504151845/css/demo_styles.css">
+<link rel="stylesheet" href="201504151845/201504151845/css/demo2.css">
+<script src="201504151845/201504151845/js/vendor/modernizr-2.6.2.min.js"></script>
+<link rel="stylesheet" href="icomoon/style.css">
+<link rel="stylesheet" href="Christmas Snow.css">
+<style>
+	@font-face{font-family:nm;src: url(Animaletters.ttf);}
+	@font-face{font-family:snow;src: url( Honeybee.ttf);}
+	@font-face{font-family:star;src: url(Starlight.ttf);}
+	@font-face{font-family:cookie;src: url(CookieMonster.ttf);}
+	@font-face{font-family:dinosaur;src: url(DinosaursAreAlive.ttf);}
+	body{overflow: hidden;background:aliceblue;font-family: cookie;}
+ body, a:hover {cursor: url(http://cur.cursors-4u.net/holidays/hol-5/hol440.ani), url(http://cur.cursors-4u.net/holidays/hol-5/hol440.gif), progress !important;}
+	.box-1 h1{font-size: 100px;font-family: nm;color:pink;cursor: pointer;border-color: border-color: rgba(255,255,255,0.3)!important;}
+	.container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		left: 0%;
+		position: absolute;
+		top: 0%;
+		overflow: hidden;
+		width: 50%;
+		height: 100%;
+}
+	
+	.container:after{
+  content:" ";
+  display:block;
+  width:8%;
+  height:80%;
+  background:rgba(255, 255, 255, 0.3);
+  position:absolute;
+		transform: skew(-35deg);
+  bottom:0%;
+		border-left: solid 0.6px rgba(255, 255, 255, 0.4);
+		border-right: solid 0.7px rgba(255, 255, 255, 0.4);
+  right:-8%;
+		-webkit-filter:brightness(150%);
+		filter: brightness(150%);
+  transition:all 1.15s ease-in-out;
+	
+}
+	.container:hover:after{
+  margin-right:150%;
+		height: 180%;
+		width: 21%;
+		-webkit-filter:brightness(300%);
+		filter: brightness(300%);
+		opacity: 1;
+}
+	
+	div[class*=box] {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+		border-radius: 38px;
+	}
+	
+	.box-1{
+		width: 50%;
+		height: 50%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack:center;
+		-mx-flex-pack:center;
+		justify-content: center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items: center;
+		filter: blur(9px);
+		-webkit-filter: blur(9px);
+		transition: -webkit-filter 1s ease-in;
+	}
+	
+	.box-1 .share-buttons {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack:distribute;
+		justify-content: space-around;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		border: 1px solid border-color: rgba(255,255,255,0.3)!important;;
+		width: 0;
+		height: 0;
+		z-index: 10;
+		border-radius: 8px;
+		-webkit-transition: all 0.4s 0s, border 0.4s 0.6s, height 0.4s 0.4s, margin 0.4s 0.4s;
+		transition: all 0.4s 0s, border 0.4s 0.6s, height 0.4s 0.4s, margin 0.4s 0.4s;
+		opacity: 0;
+	}
+	.box-1:hover .share-buttons{
+		height: 200px;
+		width: 400px;
+		margin-top: -100px;
+		border-color: #dbdbdb;
+		background-color: rgba(255,255,255,0.3)!important;
+		-webkit-transform: translateX(-200px);
+		transform: translateX(-200px);
+		filter: blur(0px);
+		-webkit-filter: blur(0px);
+		opacity: 1;
+	}
+	.box-1:hover{
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+	}
+	
+	.box-1 img{
+		display: block;position: relative;-webkit-transition:all 1.4s linear;
+transition:all 1.4s linear;
+	}
+	.box-1 img:hover{-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+	.container1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		right: 0%;
+		position: absolute;
+		bottom: 0%;
+		height: 100%;
+		width: 50%;
+		overflow: hidden;
+	}
+
+	
+	.container1:after{
+  content:" ";
+  display:block;
+  width:8%;
+  height:80%;
+  background:rgba(255, 255, 255, 0.3);
+  position:absolute;
+		transform: skew(-35deg);
+  top:0%;
+		border-left: solid 0.6px rgba(255, 255, 255, 0.4);
+		border-right: solid 0.7px rgba(255, 255, 255, 0.4);
+  left:-18%;
+		-webkit-filter:brightness(120%);
+		filter: brightness(120%);
+  transition:all 1.15s ease-in-out;  
+}
+	.container1:hover:after{
+  margin-left:150%;
+		height: 180%;
+		width: 21%;
+		-webkit-filter:brightness(200%);
+		filter: brightness(200%);
+}
+	.box-2 h1{font-family: nm;color: aquamarine;font-size: 100px;cursor: pointer;}
+	.box-2{
+		 background-size: cover;
+		width: 50%;
+		height: 50%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack:center;
+		-mx-flex-pack:center;
+		justify-content: center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items: center;
+		filter: blur(9px);
+		-webkit-filter: blur(9px);
+		transition: all 1s ease-in;
+	}
+	
+	.box-2 .share-buttons {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack:distribute;
+		justify-content: space-around;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		border: 1px solid rgba(255,255,255,0)!important;
+		width: 0;
+		height: 0;
+		z-index: 10;
+		border-radius: 8px;
+		-webkit-transition: all 0.4s 0s, border 0.4s 0.6s, height 0.4s 0.4s, margin 0.4s 0.4s;
+		transition: all 0.4s 0s, border 0.4s 0.6s, height 0.4s 0.4s, margin 0.4s 0.4s;
+		opacity: 0;
+	}
+	.box-2:hover .share-buttons{
+		height: 200px;
+		width: 400px;
+		margin-top: -100px;
+		border-color: #dbdbdb;
+		background-color: rgba(255,255,255,0.3)!important;
+		-webkit-transform: translateX(-200px);
+		transform: translateX(-200px);
+		filter: blur(0px);
+		-webkit-filter: blur(0px);
+		opacity: 1;
+	}
+	.box-2:hover {
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+
+	}
+	.box-2 img{
+		display: block;position: relative;-webkit-transition:all 1.4s linear;
+transition:all 1.4s linear;
+	}
+	.box-2 img:hover{-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+	.icon-cancel-circle:hover{color: white;}
+	#ov-topleft{background: pink;color: purple;font-size:30px;font-family: snow;word-spacing: 40px;font-weight: bold; text-transform:capitalize;}
+	#ov-topright{background:lightgreen;color: black;font-size: 30px;word-spacing: 40px;font-weight: bold;text-transform: capitalize;font-family: snow;color:violet;}
+	.star{font-family: star;border-bottom: 3px dashed;text-align: center;}
+	.cookie{font-family: cookie;border-bottom: 3px dashed;text-align: center;}
+	#ov-topright span{font-family: dinosaur;margin-left: 100px;font-size: 60px;color: deeppink;}
+	.wrap {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  margin: 20px auto 0;
+	text-align: justify;
+	border: 3px dashed white;
+	padding: 5px 30px 45px 30px; 
+}
+	.ground {
+  position: fixed;
+  background: white;
+  left: -20px;
+  right: -20px;
+  bottom: -30px;
+  height: 80px;
+  border-radius: 100% 100% 0 0;
+}
+	.a{width:100%;height: 100%;position: absolute;background-color:#023;top: 0%; left:0%;}
+.ground {
+  position: fixed;
+  background: white;
+  left: -20px;
+  right: -20px;
+  bottom: -30px;
+  height: 80px;
+  border-radius: 100% 100% 0 0;
+}
+
+.snowman {
+  position: absolute;
+  top: -20px;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  left: 300px;
+}
+.snowman:before {
+  content: '';
+  position: absolute;
+  background: white;
+  width: 22px;
+  height: 22px;
+  top: -18px;
+  left: 50%;
+  border-radius: 50%;
+  margin-left: -11px;
+}
+.snowman:after {
+  content: '';
+  position: absolute;
+  background: white;
+  width: 16px;
+  height: 16px;
+  top: -32px;
+  left: 50%;
+  border-radius: 50%;
+  margin-left: -8px;
+}
+.snowman .carrot {
+  border-left: 8px solid orange;
+  border-top: 1px solid transparent;
+  border-bottom: 2px solid transparent;
+  position: absolute;
+  top: -26px;
+  left: 18px;
+  z-index: 9;
+}
+
+.text {
+  font-size: 6em;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+	font-family: Christmas Snow;
+}
+.text1 {
+  font-size: 6em;
+  color: white;
+  position: absolute;
+  bottom: -20%;
+  right: 5%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-80%, -50%, 0);
+	font-family: Christmas Snow;
+}
+	</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="box-1">
+
+   <img src="mmexport1497147670280.jpg" width="100%" height="100%">
+  <nav class="nav clearfix">   <div class="share-buttons"> 
+  	 
+  <button class="nav-el" id="el-topleft" data-id="ov-topleft" style="background: rgba(255,255,255,0)!important;border: rgba(255,255,255,0)!important;top: -15%;"><h1>Mary</h1></nav></button>
+  </div>
+	</div></div>
+<div class="container1">
+	<div class="box-2">
+	
+	<img src="mmexport1497145874677.jpg" width="100%" height="100%">
+	 <nav class="nav clearfix"><div class="share-buttons">	<button class="nav-el" id="el-topright" data-id="ov-topright" style="background: rgba(255,255,255,0)!important;border: rgba(255,255,255,0)!important;top: -15%;"><h1>Tony</h1></nav></button>
+	</div>
+	</div>
+</div>
+
+<section class="overlay" id="ov-topleft">
+            <div class="wrap">
+                <h1>To Auntie:</h1>
+<img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif"><img src="decoration/1958(1).gif"><img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif"><img src="decoration/1958(1).gif"><img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif"><img src="decoration/1958(1).gif"><img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif"><img src="decoration/1958(1).gif"><img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif"><img src="decoration/1958(1).gif"><img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif"><img src="decoration/1958(1).gif"><img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif"><img src="decoration/1958(1).gif"><img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif"><img src="decoration/1958(1).gif"><img src="decoration/1954.gif"><img src="decoration/1955.gif"><img src="decoration/1956.gif"><img src="decoration/1957.gif">
+               <p>Hello, I'm Mary the one who is called Auntie Mary by this author. Through the author, I made friends with John the one who also got a special title "Uncle" from the author.</p>
+               <p>Overtime, Auntie, I have some words for you: "In your eyes, I can see how tough to be a single parent who has to look after a dinosaur(Boys like acting naughtily)." Although we don't meet often, you advise us to have some small events at weekends from time to time. 'Do Re Mi...' &amp; 'Empress Flower' how much you have taught me about singing. An aunt like you, an uncle like John and plenty of students at WSE like my friends that you all brighten strong in my dark despair. Making a small path with standing by me in my three-year study at WSE, so then I'm not that bored and lonely. We know leaving is ready for coming back, but that instant of seeing off friends is ever sadly and deeply carved in our mind. From you, I realized "A journey ends is for a new journey"!</p>
+               <img src="decoration/1801.gif"><img src="decoration/1802.gif"><img src="decoration/1803.gif"><img src="decoration/1804.gif"><img src="decoration/1805.gif"><img src="decoration/1806.gif"><img src="decoration/1807.gif"><img src="decoration/1801.gif"><img src="decoration/1802.gif"><img src="decoration/1803.gif"><img src="decoration/1804.gif"><img src="decoration/1805.gif"><img src="decoration/1806.gif"><img src="decoration/1807.gif"><img src="decoration/1801.gif"><img src="decoration/1802.gif"><img src="decoration/1803.gif"><img src="decoration/1804.gif"><img src="decoration/1805.gif"><img src="decoration/1806.gif"><img src="decoration/1807.gif"><img src="decoration/1801.gif"><img src="decoration/1802.gif"><img src="decoration/1803.gif"><img src="decoration/1804.gif"><img src="decoration/1805.gif"><img src="decoration/1806.gif"><img src="decoration/1807.gif"><img src="decoration/1801.gif"><img src="decoration/1802.gif"><img src="decoration/1803.gif"><img src="decoration/1804.gif"><img src="decoration/1805.gif"><img src="decoration/1806.gif"><img src="decoration/1807.gif"><img src="decoration/1801.gif"><img src="decoration/1802.gif"><img src="decoration/1803.gif"><img src="decoration/1804.gif"><img src="decoration/1805.gif"><img src="decoration/1806.gif"><img src="decoration/1807.gif"><img src="decoration/1801.gif"><img src="decoration/1802.gif"><img src="decoration/1803.gif"><img src="decoration/1804.gif"><img src="decoration/1805.gif"><img src="decoration/1806.gif"><img src="decoration/1807.gif"><img src="decoration/1801.gif"><img src="decoration/1802.gif"><img src="decoration/1803.gif"><img src="decoration/1804.gif">
+            </div>
+
+            <button class="close"><i class="icon-cancel-circle" aria-hidden="true"></i>
+</button>
+        </section>
+
+        <section class="overlay" id="ov-topright">
+            <div class="wrap">
+              <h1>To Bear Boy:<span>!@#$%^&*()_+"</span></h1>
+              <p>There's nothing but I have to say: "A boy should be a boy, sometimes you acted like a girl to make people look at you , which all boys must experience in their young age". Whatever your mom says, you always choose contrary ways to show how cool you are.
+              With some words hidden in my heart since the first time I saw you: "you are unlike my nephew who listens to his mum but not me this stupid uncle; you have your own style to make friends but a little bit naughty(That's why I call you a bear boy)." Your path is still long, you can't say you are feeling annoyed; when someday you truely understand feeling annoyed, you would say: "My past was not that annoying". As regarding to the title you always use, I'd rather you call me uncle but not brother. And there are some words I don't understand like below:</p>
+              <p class="star">! @ # $ % * O {} @ # $ %</p>
+              <p class="cookie">@ # $ % & {} [] * ! O q d</p>
+            </div>
+
+            <button class="close"><i class="icon-cancel-circle" aria-hidden="true"></i></button>
+        </section>
+<script>window.jQuery || document.write('<script src="jquery-1.10.2.min.js"><\/script>')</script>
+<script src="201504151845/201504151845/js/plugins.js"></script>
+<script src="201504151845/201504151845/js/demo.js"></script>
+<script src="Flurry-master/Flurry-master/jquery.flurry.js"></script>
+<script>
+	$( document ).ready( function() {
+    $( 'body' ).flurry({
+        character: "❄❅❆*⛄☃..",
+        color: "ghostwhite",
+        height: 1300,
+        frequency: 80,
+        speed: 7000,
+        small: 8,
+        large: 48,
+        wind: 160,
+        windVariance: 20,
+        rotation: 0,
+        rotationVariance: 90
+    });
+});
+	</script>
+	<div class="a"> 
+<div class='text'>
+  Merry Christmas!
+</div>
+ 
+
+<div class='ground'><div class="text1">DRAG</div>
+  <div class='snowman'>
+    <div class='carrot'></div>
+  </div>
+	</div></div>
+<script src="jquery.pep.js-master/jquery.pep.js-master/src/jquery.pep.js"></script>
+<script>
+	$('.a').pep();
+	</script>
+</body>
+</html>
