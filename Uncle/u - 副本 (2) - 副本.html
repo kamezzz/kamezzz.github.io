@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+<title>无标题文档</title>
+<script type="text/javascript" src="bgchange.js"></script>
+<style>
+	body{position: absolute;top: -1%;overflow-x: hidden;}
+	body, a:hover {cursor: url( smi351.cur), progress !important;}
+		@charset utf-8; 
+	@font-face{font-family:love;src: url( Decorative.ttf);}
+	@font-face{font-family:love1;src: url( zachary/zachary.ttf);}
+/* common */ 
+#bd{width: 960px;margin: 100px auto;max-width: 960px;}
+/* module: sliders */ 
+#sliders{ 
+border-radius: 5px; 
+background: rgba(255,255,255,0.3)!important; 
+
+} 
+#overflow{ 
+width: 100%; 
+overflow: hidden; 
+} 
+#sliders .inner{ 
+width: 500%; 
+transiton: all 1s linear; 
+-webkit-transition: all 1s linear; 
+} 
+#sliders article{ 
+float: left; 
+width: 20%; 
+} 
+#sliders article .info{ 
+position: absolute; 
+opacity: 0; 
+padding: 30px; 
+color: #666; 
+font-family: Arial; 
+transition: opacity 0.1s ease-out; 
+-webkit-transform: translateZ(0); 
+-webkit-transition: opacity 0.1s ease-out; 
+} 
+#sliders article .info h1{
+	font-size: 78px;
+	font-weight: bold;
+	margin-top: -25px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 5px;
+	font-family: love;
+} 
+#sliders article .info a{ 
+color: #666; 
+text-decoration: none; 
+font-family: love;
+font-size: 30px;
+	margin-left: 20px;
+} 
+/* module: controls */ 
+#controls{ 
+height: 50px; 
+width: 100%; 
+margin-top: -25%; 
+} 
+#controls label{ 
+display: none; 
+width: 50px; 
+height: 50px; 
+opacity: 0.3; 
+cursor: pointer; 
+} 
+#controls label:hover{ 
+opacity: 1; 
+} 
+/* module: active */ 
+#active{ 
+width: 100%; 
+text-align: center; 
+} 
+#active label{ 
+display: inline-block; 
+width: 10px; 
+height: 10px; 
+border-radius: 5px; 
+background: #bbb; 
+border-color: #777; 
+} 
+#active label:hover{ 
+background: #ccc; 
+} 
+/* input checked change style */ 
+#slider1:checked ~ #active label:nth-child(1), 
+#slider2:checked ~ #active label:nth-child(2), 
+#slider3:checked ~ #active label:nth-child(3){ 
+background: #333; 
+} 
+#slider2:checked ~ #controls label:nth-child(1), 
+#slider3:checked ~ #controls label:nth-child(2), 
+#slider2:checked ~ #controls label:nth-child(3){ 
+display: block; 
+float: left; 
+background: url(../img/prev.png) no-repeat; 
+margin-left: -70px; 
+} 
+#slider1:checked ~ #controls label:nth-child(2), 
+#slider2:checked ~ #controls label:nth-child(3),  
+#slider3:checked ~ #controls label:nth-child(1){ 
+display: block; 
+float: right; 
+background: url(../img/next.png) no-repeat; 
+margin-right: -70px; 
+} 
+#slider1:checked ~ #sliders article:nth-child(1) .info, 
+#slider2:checked ~ #sliders article:nth-child(2) .info, 
+#slider3:checked ~ #sliders article:nth-child(3) .info{
+	opacity: 1;
+	transition: all 0.6s ease-out 1s;
+	-webkit-transition: all 0.6s ease-out 1s;
+} 
+#slider1:checked ~ #sliders .inner{ 
+margin-left: 0; 
+} 
+#slider2:checked ~ #sliders .inner{ 
+margin-left: -100%; 
+} 
+#slider3:checked ~ #sliders .inner{ 
+margin-left: -200%; 
+} 
+	.element{
+	color: hotpink;
+	width: 894px;
+	overflow: hidden;
+	text-decoration: underline;
+	left: 3%;
+	font-size: 35px;
+	margin-top: 170px;
+	position: relative;
+	text-align: justify;
+	font-family: love1;
+    border-top: 3px solid purple;
+	border-bottom: 3px solid purple;	
+}
+	.element:hover{background: url(mmexport1496539056964.jpg); background-size:100% 100%;border-radius: 5px;color: rgba(255,105,180,0.0);}
+	
+	.element1{
+	color: honeydew;
+	width: 894px;
+	overflow: hidden;
+	text-decoration: underline;
+	left: 3%;
+	font-size: 35px;
+	margin-top: 170px;
+	position: relative;
+	text-align: justify;
+	font-family: love1;
+		border-top: 3px solid aliceblue;
+	border-bottom: 3px solid aliceblue;	
+}
+	.element1:hover{background: url( mmexport1496542280217.jpg); background-size:100% 100%;border-radius: 5px;color: rgba(255,105,180,0.0);}
+	
+	.element2{
+	color:tomato;
+	width: 894px;
+	overflow: hidden;
+	text-decoration: underline;
+	left: 3%;
+	font-size: 35px;
+	margin-top: 170px;
+	position: relative;
+	text-align: justify;
+	font-family: love1;
+		border-top:3px solid Beige;
+	border-bottom: 3px solid Beige;	
+}
+	.element2:hover{background: url( mmexport1496542294221.jpg); background-size:100% 100%;border-radius: 5px;color:rgba(236,228,228,0.0);}
+	
+	.header{
+	background: rgba(240,248,255,0.5)!important;
+	border-radius: 10px;
+	box-shadow: 1px 1px 4px #666;
+	margin-top: -52px;
+}
+	.header input{position: relative;left:32%;width: 100px;}
+	</style>
+	
+	<!-- include jQuery library -->
+
+</head>
+<body>
+
+
+
+
+<div id="bd">
+<div class="header">
+<input checked type="radio" name="slider" id="slider1">
+<input type="radio" name="slider" id="slider2">
+<input type="radio" name="slider" id="slider3">
+<div id="sliders"> 
+<div id="overflow"> 
+<div class="inner"> 
+<article> 
+<div class="info">
+  <h1>TO:</h1>
+  <a href="#">whom!</a></div> 
+<p class="element"></p>
+</article> 
+<article> 
+<div class="info">
+  <h1>WE</h1>
+  <a href="#">CALL</a></div> 
+<p class="element1"></p>
+</article> 
+<article> 
+<div class="info">
+  <h1>Uncle</h1>
+  <a href="#">John!</a></div> 
+<p class="element2"></p>
+</article>   
+</div> 
+</div> 
+</div> </div> 
+<div id="controls"> 
+<label for="slider1"></label> 
+<label for="slider2"></label> 
+<label for="slider3"></label> 
+ </div> 
+</div> 
+<canvas id="canvas" style="margin-top: -900px;"></canvas>
+<script src="../typed.js-master/typed.js-master/js/typed.js"></script>
+<script>
+	document.addEventListener("DOMContentLoaded", function(){
+		Typed.new(".element", {
+			strings: ["!NIE.!NIE.UNCLE, This webpage is just like a letter with some emotions that I got from you everytime we hung out with Auntie Marry, Tony and some of my friends. Frankly, I am not that kind of boy who could use dozens of good words to link with your heart. Ah, getting stuck in speaking is normally my expertise. But you said, it's called shyness. You once asked:'Why didn't you go to college?' And I once answered 'I made a mistake in choosing subjects.' From time to time, you spoke some dirty jokes that I loved and I enjoyed making them in high school. We hung out to some places: a dessert shop where we needed to wait, a bakery where usually saw crowd, a supermarket where I usually bought lollipop."],
+			showCursor:false,
+			typeSpeed:60,
+		});
+	});
+</script>
+<script>
+	document.addEventListener("DOMContentLoaded", function(){
+		Typed.new(".element1", {
+			strings: ["You seemed to like to talk to me when others chose to stay away from me. My friend said: 'all humans must experience having a crush on some people', to which you nodded to mean 'yes'. You came to teach me in English, but I spoke in Cantonese as a reply. Hey! Uncle, do you still remember how we knew each other? By accident? By chance? By fate? With great power, comes great responsibility.You are busy taking care of your daughters, but you still have time to talk to me at weekends. Auntie Mary said: 'Being a parent is not easy,and even a great father with two daughters.' As time goes by, when we got along well with each other, you felt and understood why I lied from time to time."],
+			showCursor:false,
+			typeSpeed:60,
+		});
+	});
+</script>
+<script>
+	document.addEventListener("DOMContentLoaded", function(){
+		Typed.new(".element2", {
+			strings: ["'A man should look like a real man!' Speak louder.As a cantonese speaker, you told and taught me some old songs from HongKong in the old time. You said: 'we are brothers, but I feel we are uncle and nephew.' You are always adored by girls because I see that from afar. Telling me something just with a smile is always your style.Without you around me, I cannot cope with anything. You usually heal my broken heart with Auntie Mary. From time to time, I always mumble, but you say 'little boy'.You used to say: 'A boy will be independent someday.' Don't cry because someone is leaving, but I cannot stop crying. When I am with you, I don't want the day to end that fast; When I want to see you, I don't want the time to leap that fast; Beacuse we'll leave each other with either tear or laughter."],
+			showCursor:false,
+			typeSpeed:60,
+		});
+	});
+</script>
+
+<script>
+	var canvas = document.getElementById('canvas');
+var ctx = canvas.getContext('2d');
+canvas.width = innerWidth;
+canvas.height = innerHeight;
+var horizon = innerHeight/25;
+
+window.addEventListener('resize', function(){
+  canvas.width = innerWidth;
+  canvas.height = innerHeight;
+  horizon = innerHeight/50;
+})
+
+function Firefly() {
+  this.x = Math.random() * innerWidth;
+  this.y = horizon + (Math.random() * (innerHeight));
+  this.xSpeed = 0.66 + (Math.random() * -1.33);
+  this.ySpeed = 0.66 + (Math.random() * -1.33);
+  this.lightTimer = 0;
+}
+
+Firefly.prototype.move = function() {
+  if (this.lightTimer < 0) {
+    if (this.x + this.xSpeed < 0 || this.x + this.xSpeed > innerWidth) {
+      this.xSpeed *= -1;
+    }
+    if (this.y + this.ySpeed < horizon || this.y + this.ySpeed > innerHeight) {
+      this.ySpeed *= -1;
+    }
+    if (Math.random() < 0.01) {
+      this.x = Math.random() * innerWidth;
+      this.y = horizon + (Math.random() * (innerHeight));
+      this.xSpeed = 1 + (Math.random() * -2);
+      this.ySpeed = 1 + (Math.random() * -2);
+      this.lightTimer = 20 + (Math.random() * 40);
+    }
+  }
+  this.x += this.xSpeed;
+  this.y += this.ySpeed;
+  
+  this.lightTimer--;
+};
+
+Firefly.prototype.draw = function() {
+  var myAlpha;
+  var myRadius = 4 + (Math.random() * 4);
+  if (this.lightTimer >= 0) {
+    myAlpha = Math.sin(Math.PI * (this.lightTimer/60));
+    var light = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, myRadius);
+    light.addColorStop(0.5, 'rgba(255, 255, 0, ' + myAlpha + ')');
+    light.addColorStop(1, 'rgba(255, 255, 0, 0)');
+
+    ctx.fillStyle = light;
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, myRadius, 0, Math.PI * 2, true);
+    ctx.fill();
+  }
+};
+
+var fireflies = [];
+for (var i = 0; i < 65; i++) {
+  fireflies.push(new Firefly);
+}
+
+function animate() {
+  ctx.clearRect(0, 0, innerWidth, innerHeight);
+  for (var j = 0; j < fireflies.length; j++) {
+    fireflies[j].move();
+    fireflies[j].draw();
+  }
+  requestAnimationFrame(animate);
+}
+
+animate();</script>
+<script type="text/javascript">
+$.backstretch([
+		'file:///C:/Users/Administrator/Desktop/u/5ce7912a6fe64b3c8a0eac2b361cab4e.jpg',
+		'file:///C:/Users/Administrator/Desktop/u/11243321T-0.jpg',
+		'file:///C:/Users/Administrator/Desktop/u/1124332539-16.jpg'
+	], {
+		fade : 1000, // 动画时长
+		duration : 2000 // 切换延时
+});
+</script>
+</body>
+</html>
