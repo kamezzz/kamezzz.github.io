@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>无标题文档</title>
 <style>
-	body{width: auto;height:100%;}
+	body{width: auto;height:100%;overflow:hidden;}
 	.top_header{background: -webkit-radial-gradient(center, ellipse, #051838, #0a093b 100%);background: radial-gradient(ellipse at center, #051838, #0a093b 100%);position: absolute;width: 100%;height: 100%;top: 0%;padding: 0;margin: 0;left: 0%;border: thick;border-bottom-color: aliceblue;z-index: -1;}
 	.container{background: #F7F8EB;position: absolute;left: 30%; width: 40%;height: 90%;z-index: -1;border: dashed;border-left-color: pink;border-right-color: aqua;border-bottom-color:#6DF4AC;border-top-color: cornflowerblue; top: 5%;border-radius: 15px;}
 	.star{background: white;width: 2.5px;height: 2.5px;border-radius: 100%;margin-left: 50px;margin-top: 50px;animation: pulse 2s linear infinite;}
@@ -257,13 +257,13 @@
 	}
 	@keyframes pulse{
 		0%{
-			box-shadow: 0 0 0 0 rgba(255,255,255,0.4);opacity: 0.7;
+			box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
 		}
 		50%{
-			box-shadow: 0 0 0 10px rgba(255,255,255,0);opacity: 0.6;
+			box-shadow: 0 0 0 10px rgba(255,255,255,0);
 		}
 		100%{
-			box-shadow: 0 0 0 0 rgba(255,255,255,0.2);opacity: 0.8;
+			box-shadow: 0 0 0 0 rgba(255,255,255,0);
 		}
 	}
 	@keyframes moon{
