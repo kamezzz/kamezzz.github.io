@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="file:///C:/Users/Administrator/Desktop/bootstrap-3.3.7/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+<style>
+	@font-face{font-family:kid;src: url(file:///C:/Users/Administrator/Desktop/u/bythebutterfly_littlemisspriss/LittleMissPriss.ttf);}
+	body{font-family: kid;}
+	h1{font-weight: bold;font-size: 10vh;text-align: center;}
+	hr{height: 0px;width: 70vh;padding: 0;}
+	.paper {
+  position: absolute;
+  height: 650px;
+  width: 550px;
+  background: rgba(255,255,255,0.9);
+  margin: -275px -225px;
+  left: 41%;
+  top: 42%;
+  box-shadow: 1px 0px 5px 0px #888;
+	border-radius: 5px;
+}
+.paper::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  height: 100%;
+  width: 2px;
+  background: rgba(255,0,0,0.4);
+}
+.lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+	border-radius: 5px;
+}
+.text {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
+  line-height: 25px;
+  font-family: kid;
+  overflow: hidden;
+  outline: none;
+   font-size: 4vh;
+	font-weight: bold;
+	color: black;
+}
+	.notebook_body{
+		background: skyblue;
+		width: 570px;
+		height: 670px;
+		position: absolute;
+		border-radius: 8px;
+		left: 50%;
+		box-shadow: 1px 1px 1px 1px grey;	
+		top: 15%;
+	}
+	.menu_2{
+		 background: url(4-stages-of-life4.jpg) 100% 100%;
+		position: fixed;
+		height: 100%;
+		width: 15%;
+		top: 0%;
+		left: -13%;
+		border-radius: 5px;
+		box-shadow: 1px 1px 10px grey;
+		transition: 0.5s all ease-in;
+		background-position: 50% 50%;
+	}
+	.menu_2:hover{left: 0%;}
+	.move{position: absolute;animation: star .8s ease-in-out infinite;}
+	.move1{position: absolute;animation: star1 .8s ease-in-out infinite;animation-delay: .5s;}
+	.move2{position: absolute;animation: star2 1s ease-in-out infinite;animation-delay: 2.6s;}
+	.move3{position: absolute;animation: star3 1.2s ease-in-out infinite;animation-delay: 1.7s;}
+	.move4{position: absolute;animation: star4 .8s ease-in-out infinite;animation-delay: .8s;}
+	.move5{position: absolute;animation: star5 0.8s ease-in-out infinite;animation-delay: 2s;}
+	.move6{position: absolute;animation: star6 1.2s ease-in-out infinite;animation-delay: 1s;}
+	.move7{position: absolute;animation: star7 .8s ease-in-out infinite;animation-delay: 2.2s;}
+	@keyframes star{
+		0%{left: 10%;top: -3vh;  transform: rotate(72deg);}
+		25%{left: 15%; top: 5vh; transform: rotate(144deg);}
+		50%{left: 20%; top: 13vh; transform: rotate(216deg);}
+		75%{left: 25%;top: 21vh; transform: rotate(288deg);}
+		100%{left: 30%;top: 29vh;transform: rotate(360deg);}
+	}
+	@keyframes star1{
+		0%{left: 3%;top: -3vh;  transform: rotate(40deg);}
+		25%{left: 6%; top: 5vh; transform: rotate(80deg);}
+		50%{left: 9%; top: 13vh; transform: rotate(160deg);}
+		75%{left: 12%;top: 21vh; transform: rotate(248deg);}
+		100%{left: 15%;top: 29vh;transform: rotate(360deg);}
+	}
+	@keyframes star2{
+		0%{left: 18%;top: 0vh;  transform: rotate(40deg);}
+		25%{left: 26%; top: 5vh; transform: rotate(90deg);}
+		50%{left: 34%; top: 10vh; transform: rotate(140deg);}
+		75%{left: 42%;top: 15vh; transform: rotate(220deg);}
+		100%{left: 50%;top: 20vh;transform: rotate(340deg);}
+	}
+	@keyframes star3{
+		0%{left: 35%;top: -2vh;  transform: rotate(40deg);}
+		25%{left: 40%; top: 9vh; transform: rotate(80deg);}
+		50%{left: 45%; top: 20vh; transform: rotate(160deg);}
+		75%{left: 50%;top: 26vh; transform: rotate(248deg);}
+		100%{left: 55%;top: 26vh;transform: rotate(360deg);}
+	}
+	@keyframes star4{
+		0%{left: 50%;top: -3vh;  transform: rotate(40deg);}
+		25%{left: 55%; top: 5vh; transform: rotate(80deg);}
+		50%{left: 60%; top: 13vh; transform: rotate(160deg);}
+		75%{left: 65%;top: 21vh; transform: rotate(248deg);}
+		100%{left: 70%;top: 29vh;transform: rotate(360deg);}
+	}
+	@keyframes star5{
+		0%{left: 65%;top: 0vh;  transform: rotate(20deg);}
+		25%{left: 68%; top: 5vh; transform: rotate(90deg);}
+		50%{left: 71%; top: 10vh; transform: rotate(140deg);}
+		75%{left: 74%;top: 15vh; transform: rotate(220deg);}
+		100%{left: 77%;top: 20vh;transform: rotate(340deg);}
+	}
+	@keyframes star6{
+		0%{left: 76%;top: -2vh;  transform: rotate(40deg);}
+		25%{left: 79%; top: 9vh; transform: rotate(80deg);}
+		50%{left: 82%; top: 20vh; transform: rotate(160deg);}
+		75%{left: 85%;top: 26vh; transform: rotate(248deg);}
+		100%{left: 88%;top: 26vh;transform: rotate(360deg);}
+	}
+	@keyframes star7{
+		0%{left: 87%;top: -3vh;  transform: rotate(40deg);}
+		25%{left: 90%; top: 5vh; transform: rotate(80deg);}
+		50%{left: 93%; top: 13vh; transform: rotate(160deg);}
+		75%{left: 96%;top: 21vh; transform: rotate(248deg);}
+		100%{left: 98%;top: 29vh;transform: rotate(360deg);}
+	}
+	</style>
+</head>
+
+<body>
+<div class="container" style="width: 100%;">
+<embed src="star.svg" style="width: 4vh;" class="move">
+<embed src="star (1).svg" style="width: 4vh;" class="move1">
+<embed src="star (2).svg" style="width: 3vh;" class="move2">
+<embed src="star (3).svg" style="width: 3vh;" class="move3">
+<embed src="star (4).svg" style="width: 3vh;" class="move4">
+<embed src="star (5).svg" style="width: 3vh;" class="move5">
+<embed src="star (6).svg" style="width: 3vh;" class="move6">
+<embed src="star (7).svg" style="width: 3vh;" class="move7">
+<h1>" Welcome to my page -- Ver2 "<hr></h1>
+<div class="container" style="background: url(memphis-colorful/memphis-colorful/memphis-colorful.png);width: 100%;position: absolute;left: 0%;height: 87%;">
+<div class="container" style="position: relative;background: url();top: 0%;width: 100vh;height: 100%;box-shadow: 1px 1px 10px grey;color: white;border: 1px black solid;background-size: 100% 100%;border">
+		<div class="lines">
+		<div class="text">asdasdasdasdads</div>
+		</div>
+	</div>
+	</div>
+	<div class="menu_2">
+	</div>
+</div>
+	
+</body>
+</html>
