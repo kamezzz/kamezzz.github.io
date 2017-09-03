@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>无标题文档</title>
 <link rel="stylesheet" href="file:///C:/Users/Administrator/Desktop/bootstrap-3.3.7/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="file:///C:/Users/Administrator/Desktop/s/animate.css-master/animate.css-master/animate.css">
 <style>
 	@font-face{font-family:kid;src: url(file:///C:/Users/Administrator/Desktop/u/bythebutterfly_littlemisspriss/LittleMissPriss.ttf);}
 	body{font-family: kid;}
@@ -29,15 +30,14 @@
   background: rgba(255,0,0,0.4);
 }
 .lines {
-  margin-top: 40px;
-  height: calc(100% - 40px);
+  margin-top: 13vh;
+  height: calc(90% - 9vh);
   width: 100%;
   background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
-	border-radius: 5px;
 }
 .text {
   position: absolute;
-  top: 65px;
+  top: 13vh;
   left: 55px;
   bottom: 10px;
   right: 10px;
@@ -45,20 +45,14 @@
   font-family: kid;
   overflow: hidden;
   outline: none;
-   font-size: 4vh;
+   font-size: 2.5vh;
 	font-weight: bold;
 	color: black;
+	word-spacing: 45px;
+	letter-spacing: 3px;
+	text-align: justify;
 }
-	.notebook_body{
-		background: skyblue;
-		width: 570px;
-		height: 670px;
-		position: absolute;
-		border-radius: 8px;
-		left: 50%;
-		box-shadow: 1px 1px 1px 1px grey;	
-		top: 15%;
-	}
+
 	.menu_2{
 		 background: url(4-stages-of-life4.jpg) 100% 100%;
 		position: fixed;
@@ -149,17 +143,31 @@
 <embed src="star (5).svg" style="width: 3vh;" class="move5">
 <embed src="star (6).svg" style="width: 3vh;" class="move6">
 <embed src="star (7).svg" style="width: 3vh;" class="move7">
-<h1>" Welcome to my page -- Ver2 "<hr></h1>
+<h1>" Welcome to <a style="cursor: pointer;" class="animated bounce infinite" href="u - 副本 (2) - 副本.html">my page</a> -- Ver2 "<hr></h1>
 <div class="container" style="background: url(memphis-colorful/memphis-colorful/memphis-colorful.png);width: 100%;position: absolute;left: 0%;height: 87%;">
 <div class="container" style="position: relative;background: url();top: 0%;width: 100vh;height: 100%;box-shadow: 1px 1px 10px grey;color: white;border: 1px black solid;background-size: 100% 100%;border">
+	<embed src="pencil.svg" style="width:9vh;position: absolute;transform: rotate(30deg);right: 0%;">
+	<embed src="eraser.svg" style="width: 6vh;position: absolute;bottom: 10%;">
 		<div class="lines">
-		<div class="text">asdasdasdasdads</div>
+		<div class="text element"></div>
 		</div>
 	</div>
 	</div>
 	<div class="menu_2">
 	</div>
 </div>
-	
+	<script src="file:///C:/Users/Administrator/Desktop/typed.js-master/typed.js-master/js/typed.js"></script>
+	<script>
+	document.addEventListener("DOMContentLoaded", function(){
+		Typed.new(".element", {
+			strings: ["&nbsp; !NIE.!NIE.UNCLE, This webpage is just like a letter with some emotions that I got from you everytime we hung out with Auntie Marry, Tony and some of my friends.  Frankly, I am not that kind of boy who could use dozens of good words to link with your heart. Ah, getting stuck in speaking is normally my expertise. But you said, it's called shyness. You once asked: 'Why didn't you go to college?' And I once answered 'I made a mistake in choosing subjects.' From time to time, you spoke some dirty jokes that I loved and I enjoyed making them in high school. We hung out to some places: a dessert shop where we needed to wait, a bakery where usually saw crowd, a supermarket where I usually bought lollipop. You seemed to like to talk to me when others chose to stay away from me. My friend said: 'all humans must experience having a crush on some people', to which you nodded to mean 'yes'. You came to teach me in English, but I spoke in Cantonese as reply. Hey! Uncle, do you still remember how we knew each other? By accident? By chance? By fate? With great power, comes great responsibility.You are busy taking care of your daughters, but you still have time to talk to me at weekends. Auntie Mary said: 'Being a parent is not easy, and even a great father with two daughters.' As time goes by, when we got along well with each other, you felt and understood why I lied from time to time."],
+			showCursor:false,
+			typeSpeed:20,
+			backDelay:5800,
+			loop:true,
+			backSpeed:00,
+		});
+	});
+</script>
 </body>
 </html>
