@@ -3740,6 +3740,11 @@ blockquote {
 	position:relative;
 }
 
+.slider__slide>.bg.i-6 {
+	background: url(https://kamezzz.github.io/images/star-background.jpg);
+	box-shadow: 2px 1px 2px 1px grey;
+}
+
 .slider__bullets {
     z-index: 3
 }
