@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+  content: url(https://kamezzz.github.io/Uncle/images/close.png) url(https://kamezzz.github.io/Uncle/images/loading.gif) url(https://kamezzz.github.io/Uncle/images/prev.png) url(https://kamezzz.github.io/Uncle/images/next.png);
   display: none;
 }
 
