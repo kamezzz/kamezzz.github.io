@@ -1,0 +1,70 @@
+@import url(audiowide.css);
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 16px; 
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+*,
+*:before,
+*:after  { box-sizing: inherit; }
+
+
+h1 { 
+  color: #fff;
+  font-family: "Audiowide", cursive;
+  font-size: 2em;
+  font-size: 6vw;
+  line-height: 1.2;
+  margin: 0.5em 0 3em;
+  text-shadow: 1px 1px 1px #333;
+}
+
+h2{position: absolute; bottom: 57px; left: 177px;font-size: 2em;font-size: 6vw;font-family: "Audiowide", cursive;text-shadow: 1px 1px 1px black;}
+h3{position: absolute; bottom: 57px; right: 177px;font-size: 2em;font-size: 6vw;font-family: "Audiowide", cursive;text-shadow: 1px 1px 1px black;}
+h4{position: absolute; bottom: 57px; left: 177px;font-size: 2em;font-size: 6vw;font-family: "Audiowide", cursive;text-shadow: 1px 1px 1px black;}
+.slide h2 {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: transform .5s .5s, opacity .5s;    /* This transition will allow us to see the opacity go down to zero, but it will delay the transform until the next slide is already covering it.*/
+}
+
+[id^="slide"]:checked + .slide h2 {  /* Now we target our headline when our input is in its checked state */
+  opacity: 1;
+  transform: translateX(0);
+  transition: all .8s .8s;   /* This will have our headline appearing and rising as the slide is coming onto the screen. */
+}
+
+.slide h3 {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: transform .5s .5s, opacity .5s;    /* This transition will allow us to see the opacity go down to zero, but it will delay the transform until the next slide is already covering it.*/
+}
+
+[id^="slide"]:checked + .slide h3 {  /* Now we target our headline when our input is in its checked state */
+  opacity: 1;
+  transform: translateX(0);
+  transition: all .8s .8s;   /* This will have our headline appearing and rising as the slide is coming onto the screen. */
+}
+
+.slide h4 {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform .7s .7s, opacity .7s;    /* This transition will allow us to see the opacity go down to zero, but it will delay the transform until the next slide is already covering it.*/
+}
+
+[id^="slide"]:checked + .slide h4 {  /* Now we target our headline when our input is in its checked state */
+  opacity: 1;
+  transform: translateY(0);
+  transition: all .5s .5s;   /* This will have our headline appearing and rising as the slide is coming onto the screen. */
+}
+
+@media (min-width: 1075px) {
+  h1 { font-size: 4em; }
+	h2 {font-size: 4em;}
+	h3{font-size: 6em;}
+	h4{font-family: 8em;}
+}
