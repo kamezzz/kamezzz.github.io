@@ -60,7 +60,7 @@ header label:hover {
 
 
 .slide-one {
-  background: url("下载 (2).png");
+  background: url("https://kamezzz.github.io/w/%E4%B8%8B%E8%BD%BD%20(1).png");
 
 }
 .slide-two {
@@ -83,14 +83,14 @@ radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px
 background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
 	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
 .slide-four {
-  background: url('pattern/cute 2.jpg');
+  background: url('https://kamezzz.github.io/w/cute%202.jpg');
 }
 .slide-five{
 	background-repeat: repeat;
-	background: url('pattern (2).png');
+	background: url('https://kamezzz.github.io/w/pattern%20(2).png');
 }
 .slide-six{
-	background:url("pattern (3).png");
+	background:url("https://kamezzz.github.io/w/pattern%20(3).png");
 }
 
 /* So all that is left to do is to target this text state.
