@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="file:///C:/Users/Administrator/Desktop/bootstrap-3.3.7/bootstrap-3.3.7/dist/css/bootstrap.css">
+<link rel="stylesheet" href="file:///C:/Users/Administrator/Desktop/s/animate.css-master/animate.css-master/animate.css">
+<link rel="stylesheet" href="file:///C:/Users/Administrator/Desktop/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+<style>
+	body{overflow-x: hidden;}
+	.img_container{height: 87em;z-index: -1;width: 100%;}
+	.change{display: inline-block;height: 100%;position: relative;top: 0%;transition: top 0.75s; width: 100%;}
+	.change:hover{animation-play-state: paused;}
+	.tah:hover .change{top: -100%;animation-play-state: paused;}
+	.tah{display: inline-block;height: 40px;overflow: hidden;position: relative;text-align: center;line-height: 40px;}
+	.background_cover{background:url(sakura/sakura/sakura.png);height: 100%;position: absolute;width: 100%;}
+	.background_cover:hover{z-index: -9;}
+	.background_cover1{background-color:#B7C8FF;height: 83em;position: absolute;width: 100%;}
+	.background_cover1:hover{z-index: -9;}
+	.background_cover2{background:linear-gradient(#9ff781, #f3f781);height: 83em;position: absolute;width: 100%;}
+	.background_cover2:hover{z-index: -9;}
+	.background_cover3{background-color:#F1E9EC;height: 83em;position: absolute;width: 100%;}
+	.background_cover3:hover{z-index: -9;}
+	.plane{width: 2em;position: absolute;transform: rotateZ(10deg) rotateX(10deg) translateY(10%) rotateY(10deg); transform-style: preserve-3d; animation: fly 3000ms linear infinite;}
+	.wrap_box{width: auto;height: auto;}
+	 .rain_drop{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: white;animation: drop ease-in-out infinite;top: -10%;left: 35%;animation-duration: 0.75s;animation-timing-function: linear;}
+	.rain_drop1{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: pink;animation: drop1 ease-in-out infinite;top: -50%;right: 35%;animation-duration: 0.95s;animation-timing-function: linear;}
+	.rain_drop2{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: palegreen;animation: drop2 ease-in-out infinite;top: -30%;right: 15%;animation-duration: 0.95s;animation-timing-function: linear;}
+	.rain_drop3{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: aqua;animation: drop3 ease-in-out infinite;top: -10%;left: 50%;animation-duration: 1.05s;animation-timing-function: linear;}
+	.rain_drop4{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: hotpink;animation: drop4 ease-in-out infinite;top: -40%;right: 35%;animation-duration: 1.05s;animation-timing-function: linear;}
+	.rain_drop5{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: cyan;animation: drop5 ease-in-out infinite;top: -10%;left: 45%;animation-duration: 1.05s;animation-timing-function: linear;}
+	.rain_drop6{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: white;animation: drop6 ease-in-out infinite;top: -20%;left: 25%;animation-duration: 1.05s;animation-timing-function: linear;}
+	.rain_drop7{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: royalblue;animation: drop7 ease-in-out infinite;top: -50%;right: 50%;animation-duration: 1.5s;animation-timing-function: linear;}
+	@keyframes drop{
+		0{top: 0%; left: 35%;}
+		100%{top: 200%; left: 15%;opacity: .3;}
+	}
+	@keyframes drop1{
+		0{top: -50%; right: 35%;}
+		100%{top: 200%; right: 45%;opacity: .3;}
+	}
+	@keyframes drop2{
+		0{top: -30%; right: 15%;}
+		100%{top: 200%; right: 25%;opacity: .3;}
+	}
+	@keyframes drop3{
+		0{top: -2%;left: 50%:}
+		100%{top: 200%;left: 50%; opacity: .3;}
+	}
+	@keyframes drop4{
+		0{top: -40%;right: 35%;}
+		100%{top: 200%;right:45%;opacity: .3;}
+	}
+	@keyframes drop5{
+		0{top: -10%;left: 45%;}
+		100%{top: 200%;left: 25%;opacity: .3;}
+	}
+	@keyframes drop6{
+		0{top: -20%;left: 25%;}
+		100%{top: 200%;left:15%;opacity: .3;}
+	}
+	@keyframes drop7{
+		0{top: -50%;right: 50%;}
+		100%{top: 200%;right: 50%;opacity: .3;}
+	}
+	.col-xs-3{padding: 0; transition: all 0.55s ease-in-out;animation: move_up 1.95s ease-in-out;transform-origin:center;transform: scale(1);}
+	@keyframes move_up{
+		0%{opacity: 0;transform: scale(0.8);}
+		50%{opacity: 0.5;}
+		100%{opacity: 1;}
+	}
+	.ball{width: 10px;height: 10px;background: black;border-radius: 50%;position: absolute;left: 50%;margin-top: -22px;}
+	
+	</style> 
+	</head>
+<body>
+<div class="container-fluid">
+<div class="text-center text-capitalize row" style="letter-spacing: 5px;background: snow;position: static;height: 4.5%;z-index: 99;color: grey;border-bottom: 1px solid pink;border-top: 1px solid pink;">
+<header>
+  <h4><div class="tah"><span class="change"><div class="rain_drop"></div><div class="rain_drop1"></div><div class="rain_drop2"></div><div class="rain_drop3"></div><strong><a>the</a></strong></span><a class="change"><strong>Good</strong></a></div> &nbsp; &nbsp; &nbsp;<div class="ball animated bounce infinite"></div><div class="tah"><span class="change"><div class="rain_drop4"></div><div class="rain_drop5"></div><div class="rain_drop6"></div><div class="rain_drop7"></div><strong>&nbsp;<a>last</a></strong></span><a class="change"><strong>bye</strong></a></div></h4>
+</header>
+</div>
+	
+	<div class="row">
+		<div class="col-xs-12 background_cover" style="padding: 0;"></div>
+		<br>
+		<br>
+		<br><br>
+	<div class="col-xs-8 col-lg-offset-2">
+		<hr>
+		<div class="jumbotron text-center text-capitalize" style="background: white;height: 60%;">
+		<div class="row container-fluid">
+			<h3><strong>From the first time to last time...</strong><h3>
+			<br>
+			<p class="col-xs-8 col-lg-offset-2 text-justify" style="line-height: 50px;border:2px solid #FCA6A7;"><i><span class="fa fa-quote-left fa-2x"></span>  &nbsp; No matter how many times I tried, the last webpage still wouldn't be done by the end of the deadline. So from the way of doing HTML, I picked the simplest and the most understanding method to fulfill my demands. Although some people don't know why I am keeping making webpage, it's the best way to record my past. Looking back at my work, imperceptibly I have created 5 webpages by imitating some people's work since March 2017. There are two buttons for different periods in these 6 years. <span class="fa fa-2x fa-quote-right"></span></i></p>
+				<div class="row">
+				
+				<div class="col-xs-6"><br><br><h2><a><strong>High School</strong></a></h2></div>
+				<div class="col-xs-6"><br><br><h2><a><strong>Wse</strong></a></h2></div></div>
+		</div>
+		</div>
+		<hr>
+	</div>
+	</div>
+
+</div>
+
+</body>
+</html>
