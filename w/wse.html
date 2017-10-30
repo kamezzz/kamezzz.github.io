@@ -57,6 +57,11 @@
 .animated.infinite {
   animation-iteration-count: infinite;
 }
+	.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+	
 @keyframes bounce {
   from, 20%, 53%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -78,10 +83,7 @@
   }
 }
 
-.bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
-}
+
 	</style>
 </head>
 
