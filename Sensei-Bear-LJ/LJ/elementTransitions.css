@@ -4,7 +4,6 @@
 	-moz-perspective: 1200px;
 	perspective: 1200px;
 	display: block;
-	overflow: hidden;
 }
 
 .et-page {
@@ -23,6 +22,7 @@
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+		overflow: hidden;
 }
 
 .et-page-current,
