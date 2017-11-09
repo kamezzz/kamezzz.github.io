@@ -4,6 +4,7 @@
 	-moz-perspective: 1200px;
 	perspective: 1200px;
 	display: block;
+	overflow: hidden;
 }
 
 .et-page {
