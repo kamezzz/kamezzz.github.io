@@ -16,7 +16,7 @@
 	.change{display: inline-block;height: 100%;position: relative;top: 0%;transition: top 0.75s; width: 100%;}
 	.change:hover{animation-play-state: paused;}
 	.tah:hover .change{top: -100%;animation-play-state: paused;}
-	.tah{display: inline-block;height: 40px;overflow: hidden;position: relative;text-align: center;line-height: 40px;}
+	.tah{display: inline-block;height: 40px;overflow: hidden;position: relative;text-align: center;line-height: 40px;top:5px;}
 	 .rain_drop{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: white;animation: drop ease-in-out infinite;top: -10%;left: 35%;animation-duration: 0.75s;animation-timing-function: linear;}
 	.rain_drop1{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: pink;animation: drop1 ease-in-out infinite;top: -50%;right: 35%;animation-duration: 0.95s;animation-timing-function: linear;}
 	.rain_drop2{width: 2px;height: 10px;border-top-left-radius: 95px;border-top-right-radius: 6px;border-bottom-left-radius: 75px;border-bottom-right-radius: 115px;position: absolute;background: palegreen;animation: drop2 ease-in-out infinite;top: -30%;right: 15%;animation-duration: 0.95s;animation-timing-function: linear;}
@@ -69,7 +69,8 @@
 	</head>
 <body>
 <div class="container-fluid">
-<div class="text-center text-capitalize row" style="letter-spacing: 5px;background: snow;position: static;height: 4.5%;z-index: 99;color: grey;border-bottom: 1px solid pink;border-top: 1px solid pink;">
+<div class="text-center text-capitalize row" style="letter-spacing: 5px;background: snow;position: static;height: 4.5%;z-index: 99;color: grey;border-bottom: 2px solid red;border-top: 2px solid red;"><hr style="position:absolute;background:linear-gradient(to right, #ffccd3, #d471a7, #b7cefa, #e3ceeb, #c7bff2);height:2px;width:100%;top:-20px;">
+<hr style="position:absolute;background:linear-gradient(to right, #c7bff2, #e3ceeb, #b7cefa, #d471a7, #ffccd3);height:2px;width:100%;top:46.5px;">	
 <header>
   <h4><div class="tah"><span class="change"><div class="rain_drop"></div><div class="rain_drop1"></div><div class="rain_drop2"></div><div class="rain_drop3"></div><strong><a>the</a></strong></span><a class="change"><strong>Good</strong></a></div> &nbsp; &nbsp; &nbsp;<div class="ball animated bounce infinite"></div><div class="tah"><span class="change"><div class="rain_drop4"></div><div class="rain_drop5"></div><div class="rain_drop6"></div><div class="rain_drop7"></div><strong>&nbsp;<a>last</a></strong></span><a class="change"><strong>bye</strong></a></div></h4>
 </header>
