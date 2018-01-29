@@ -10,7 +10,8 @@
 <script src="https://kamezzz.github.io/Auntie/modernizr-2.6.2.min.js"></script>
 <link rel="stylesheet" href="https://kamezzz.github.io/Auntie/style.css">
 <link rel="stylesheet" href="https://kamezzz.github.io/Auntie/Christmas%20Snow.css">
-<link rel="shortcut icon" href="https://kamezzz.github.io/Auntie/86117-OHEROE-335.jpg">
+<link rel="stylesheet" href="https://kamezzz.github.io/Uncle/animate.css">	
+<link rel="shortcut icon" href="https://kamezzz.github.io/Upload_New/Change.jpg">
 <style>
 	@font-face{font-family:nm;src: url(https://kamezzz.github.io/Auntie/Animaletters.ttf);}
 	@font-face{font-family:snow;src: url(https://kamezzz.github.io/Auntie/Honeybee.ttf);}
@@ -83,6 +84,10 @@
 		filter: blur(9px);
 		-webkit-filter: blur(9px);
 		transition: -webkit-filter 1s ease-in;
+		animation-name: comeout;
+		animation-duration:5s;animation-fill-mode:both;
+		animation-timing-fuction: ease-in;
+		transition:animation 3s ease-in-out;
 	}
 	
 	.box-1 .share-buttons {
@@ -186,6 +191,18 @@ transform:scale(1.2);
 		filter: blur(9px);
 		-webkit-filter: blur(9px);
 		transition: all 1s ease-in;
+		animation-name: comeout;
+		animation-duration: 5s;
+		animation-fill-mode:both;
+		animation-timing-function: ease-in;
+		transition: animation 3s ease-in-out;
+	}
+	@keyframes comeout{
+		20%{opacity: -0.2;}
+		40%{opacity: 0.2;}
+		60%{opacity: 0.6;}
+		80%{opacity: 0.8;}
+		to{opacity: 1.0;}
 	}
 	
 	.box-2 .share-buttons {
@@ -258,7 +275,14 @@ transform:scale(1.2);
   height: 80px;
   border-radius: 100% 100% 0 0;
 }
-	.a{width:100%;height: 100%;position: absolute;background-color:#023;top: 0%; left:0%;}
+	.a{width:100%;height: 100%;position: absolute;background-color:#072436;top: 0%; left:0%;animation-name: come;animation-duration: 0.5s;animation-fill-mode: both;animation-timing-function: ease-in-out;}
+	@keyframes come{
+		20%{opacity: 0.2;}
+		40%{opacity: 0.4;}
+		60%{opacity: 0.6;}
+		80%{opacity: 0.8;}
+		to{opacity: 1;}
+	}
 .ground {
   position: fixed;
   background: white;
@@ -311,7 +335,7 @@ transform:scale(1.2);
 }
 
 .text {
-  font-size: 6em;
+  font-size: 80px;
   color: white;
   position: absolute;
   top: 50%;
@@ -336,6 +360,38 @@ transform:scale(1.2);
   transform: translate3d(-80%, -50%, 0);
 	font-family: Christmas Snow;
 }
+	.snow_cap{
+		width: 420px;
+		margin-top: 10px;
+		margin-left: -205px;
+		position: absolute;
+	}
+	.snow_cap_1{
+		position: absolute;
+		width: 115px;
+		transform: rotate(-90deg);
+		margin-top: 160px;
+		margin-left: -255px;
+	}
+	.snow_cap_2{
+		width: 150px;
+		position: absolute;
+		margin-top: 220px;
+		margin-left: -30px;
+	}
+	.snow_cap_3{
+		position: absolute;
+		width: 90px;
+		margin-top: 20px;
+		margin-left: 120px;
+	}
+	.snow_cap_4{
+		position: absolute;
+		width: 110px;
+		margin-top: 20px;
+		margin-left: -210px;
+		transform: rotate(-270deg);
+	}
 	</style>
 </head>
 
@@ -346,14 +402,14 @@ transform:scale(1.2);
    <img src="https://kamezzz.github.io/Auntie/mmexport1497147670280.jpg" width="100%" height="100%">
   <nav class="nav clearfix">   <div class="share-buttons"> 
   	 
-  <button class="nav-el" id="el-topleft" data-id="ov-topleft" style="background: rgba(255,255,255,0)!important;border: rgba(255,255,255,0)!important;top: -15%;"><h1>Mary</h1></nav></button>
+  <button class="nav-el" id="el-topleft" data-id="ov-topleft" style="background: rgba(255,255,255,0)!important;border: rgba(255,255,255,0)!important;top: -15%;"><embed src="https://kamezzz.github.io/Upload_New/snow_cap_1.png" class="snow_cap_1"><embed src="https://kamezzz.github.io/Upload_New/snow_cap_2.png"><h1>Mary</h1></nav></button>
   </div>
 	</div></div>
 <div class="container1">
 	<div class="box-2">
 	
 	<img src="https://kamezzz.github.io/Auntie/mmexport1497145874677.jpg" width="100%" height="100%">
-	 <nav class="nav clearfix"><div class="share-buttons">	<button class="nav-el" id="el-topright" data-id="ov-topright" style="background: rgba(255,255,255,0)!important;border: rgba(255,255,255,0)!important;top: -15%;"><h1>Tony</h1></nav></button>
+	 <nav class="nav clearfix"><div class="share-buttons">	<button class="nav-el" id="el-topright" data-id="ov-topright" style="background: rgba(255,255,255,0)!important;border: rgba(255,255,255,0)!important;top: -15%;"><embed src="https://kamezzz.github.io/Upload_New/snow_cap_3.png" class="snow_cap_3"><embed src="https://kamezzz.github.io/Upload_New/snow_cap_5_change.png" class="snow_cap_4"><h1>Tony</h1></nav></button>
 	</div>
 	</div>
 </div>
@@ -410,7 +466,7 @@ transform:scale(1.2);
  
 
 <div class='ground'><div class="text1">DRAG</div>
-  <div class='snowman'>
+  <div class='snowman animated bounce infinite'>
     <div class='carrot'></div>
   </div>
 	</div></div>
