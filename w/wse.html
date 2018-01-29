@@ -8,7 +8,8 @@
 <link rel="stylesheet" href="https://kamezzz.github.io/w/bootstrap%20(2).css">
 <link rel="stylesheet" href="https://kamezzz.github.io/w/elementTransitions.min.css">
 <link rel="stylesheet" href="https://kamezzz.github.io/w/demo.css">
-<link href="https://kamezzz.github.io/w/icon_star.png" rel="shortcut icon">	
+<link rel="stylesheet" href="https://kamezzz.github.io/Uncle/animate.css">
+<link href="https://kamezzz.github.io/Upload_New/Star_Icon_Change.png" rel="shortcut icon">	
 
 <script src="https://kamezzz.github.io/w/jquery.min.js">
 </script>
@@ -50,45 +51,34 @@
 	.design1:hover{background: white;color: pink;transition: all 0.35s ease-in-out;}
 	.design2{font-size: 50px;bottom: 135px;}
 	.design2:hover{color: aliceblue;}
-	.kp{transition: all 0.3s ease-in-out;}
+	.change{background:none;border:none;}
+	.kp{transition: all 0.3s ease-in-out;test-shadow:2px 2px 1px black;}
 	.kp:hover{color: white;}
-	.animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
 
-.animated.infinite {
-  animation-iteration-count: infinite;
-}
-	.bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
-}
-	
-@keyframes bounce {
-  from, 20%, 53%, 80%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    transform: translate3d(0,0,0);
-  }
-
-  40%, 43% {
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -30px, 0);
-  }
-
-  70% {
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    transform: translate3d(0,-4px,0);
-  }
-}
 @media screen and (max-width: 1920px){
 		.img_uncle_flower{position: relative;left: -10px;width: 15%;bottom: -10px;}
 	.img_uncle_flower1{position: relative;right: -10px;width: 15%;bottom: -10px;float: right;}
 	}
+	
+a.top_tooltip{display: inline;position: relative;}
+	a.top_tooltip span{width: 400px;height: 400px;position: absolute;visibility: hidden;}
+	a.top_tooltip span:after{content: "";position: absolute;top: 115%;right: 2%;width: 0px;height: 0px;border-top: 20px solid transparent;border-right: 40px solid black;border-bottom: 20px solid transparent;transform: rotate(24deg);}
+	a:hover.top_tooltip span{visibility: visible;opacity: 8;bottom: 75px;left: -365px;z-index: 999;}
+	
+	a.top_tooltip1{display: inline;position: relative;}
+	a.top_tooltip1 span{width: 400px;height: 400px;position: absolute;visibility: hidden;}
+	a.top_tooltip1 span:after{content: "";position: absolute;top: 122.4%;right: 24%;width: 0px;height: 0px;border-top: 20px solid transparent;border-right: 40px solid lightcoral;border-bottom: 20px solid transparent;transform: rotate(63deg);}
+	a:hover.top_tooltip1 span{visibility: visible;opacity: 8;bottom: 95px;left: -255px;z-index: 999;}
+	
+	a.top_tooltip2{display: inline;position: absolute;right: 0%;}
+	a.top_tooltip2 span{width: 400px;height: 400px;visibility: hidden;position: absolute;}
+	a.top_tooltip2 span:after{content: "";position: absolute;top: 460px;right: 480px;width: 0px;height: 0px;border-top: 20px solid transparent;border-right: 40px solid white;border-bottom: 20px solid transparent;transform: rotate(112deg);}
+	a:hover.top_tooltip2 span{visibility: visible;opacity: 8;bottom: 15px;left: 0px;z-index: 999;}
+	
+	a.top_tooltip3{display: inline;position: relative;right: 0%;}
+	a.top_tooltip3 span{width: 400px;height: 400px;visibility: hidden;position: absolute;}
+	a.top_tooltip3 span:after{content: "";position: absolute;top: 443.5px;right: 16px;width: 0px;height: 0px;border-top: 20px solid transparent;border-right: 40px solid deepskyblue;border-bottom: 20px solid transparent;transform: rotate(90deg);}
+	a:hover.top_tooltip3 span{visibility: visible;opacity: 8;bottom: -20px;left: -300px;z-index: 999;}	
 	</style>
 </head>
 
@@ -97,15 +87,15 @@
 <div class="et-wrapper">
 <div class="et-page">
 	<div class="row">
-	<h1 class="text_content et-rotate kp"  et-in="moveFromRight" et-out="moveToRightFade">WSE</h1>	
+		<h1 class="text_content et-rotate"  et-in="moveFromRight" et-out="moveToRightFade"><p class="animated bounce infinite change kp">WSE</p></h1>	
 	<p class="text_content1">Simple design for you!</p>
 	</div>
 	<div class="row container">
 		<div class="col-xs-12" style="padding: 0;position: absolute;top: 0%;"><img src="https://kamezzz.github.io/w/flag.png"></div>
 	</div>
 	<div class="row" style="padding: 0;">
-		<img src="https://kamezzz.github.io/w/ballon.png" class="balloon container">
-<img src="https://kamezzz.github.io/w/ballon1.png" class="balloon1">
+		<img src="https://kamezzz.github.io/Upload_New/ballon_Change.png" class="balloon container">
+<img src="https://kamezzz.github.io/Upload_New/ballon1_Change.png" class="balloon1">
 	</div>
 
 	</div>
@@ -117,7 +107,7 @@
 	<div class="row"><br><br><br>
 		<div class="wrap1">
 		<br><br>
-			<p class="jumbotron text-center" style="font-family: link;font-size: 30px;letter-spacing: 5px;border:2px dashed #84D1FC"><i><img src="https://kamezzz.github.io/w/hdImg_563f72246fb983f724626ad5d608e61f1506348484006.jpg" width="155px" class="img-circle img_decoration"><img src="https://kamezzz.github.io/w/%E5%9B%BE%E5%B1%82%200.png" class="img_grass">Hey, Simon. I didn't know you left FoShan earlier than I guessed last year, because I did want to wander to dessert shop with you again. Remembering everytime you saw me in the center, I could say nothing after you yelled to me "Hey, No-Future". Yes, my future seemed a bit dark to you because I was alway lost. Finding the true path in our life without any help from others, such as friends. It's hard to meet a sincere friend who made a life lecture to me, could understand stupidness, and would still keep in touch no matter what!<img src="https://kamezzz.github.io/w/flower2.png" class="img_flower"></i>
+			<p class="jumbotron text-center" style="font-family: link;font-size: 30px;letter-spacing: 5px;border:2px dashed #84D1FC"><i><a class="top_tooltip" href="#"><span><img src="https://kamezzz.github.io/w/hdImg_563f72246fb983f724626ad5d608e61f1506348484006.jpg" style="width:350px;position:absolute;border-radius:50%;border: 4px dashed black;margin-left: 171.5px;margin-top: 380px;box-shadow: 1px 1px 10px grey;"></span><img src="https://kamezzz.github.io/w/hdImg_563f72246fb983f724626ad5d608e61f1506348484006.jpg" width="155px" class="img-circle img_decoration"></a><img src="https://kamezzz.github.io/w/%E5%9B%BE%E5%B1%82%200.png" class="img_grass">Hey, Simon. I didn't know you left FoShan earlier than I guessed last year, because I did want to wander to dessert shop with you again. Remembering everytime you saw me in the center, I could say nothing after you yelled to me "Hey, No-Future". Yes, my future seemed a bit dark to you because I was alway lost. Finding the true path in our life without any help from others, such as friends. It's hard to meet a sincere friend who made a life lecture to me, could understand stupidness, and would still keep in touch no matter what!<img src="https://kamezzz.github.io/Upload_New/flower2_Change.png" class="img_flower"></i>
 			<div class="et-rotate btn-group design" et-in="rotateSlideIn" et-out="rotateSlideOut">Next</div>
 			</p>
 		</div>
@@ -127,7 +117,7 @@
 	</div>
 	<div class="row container-fluid" style="padding: 0;">
 	<div class="col-xs-4 col-lg-4" style="left: -10px;bottom: -50px"><img src="https://kamezzz.github.io/w/leaf.png" width="10%" style="padding: 0%;"></div>
-	<div class="col-xs-4 text-center" style="bottom: -50px"><img src="https://kamezzz.github.io/w/house.png" width="80%"></div>
+	<div class="col-xs-4 text-center" style="bottom: -50px"><img src="https://kamezzz.github.io/Upload_New/house_Change.png" width="80%"></div>
 	<div class="col-xs-4 text-right" style="right: -10px;bottom: -50px;"><img src="https://kamezzz.github.io/w/leaf2.png" width="10%"></div>
 	</div>
 	</div>
@@ -138,7 +128,7 @@
 			<div class="col-xs-6 text-center clearfix" style="background: linear-gradient(135deg, white 25%, transparent 25%) -50px 0,linear-gradient(225deg, white 25%, transparent 25%) -50px 0,linear-gradient(315deg, white 25%, transparent 25%),linear-gradient(45deg, white 25%, transparent 25%);	background-size: 100px 100px;background-color: pink;">
 			 <div class="container-fluid wrap">
 				<h1 style="font-family: hang;font-size: 55px;">Auntie Mary</h1><br>
-				 <p class="jumbotron" style="font-family: type;font-size: 30px;letter-spacing: 5px;background: floralwhite;"><i><img src="https://kamezzz.github.io/Auntie/mmexport1497147670280.jpg" class="img_mary"><img src="https://kamezzz.github.io/w/butterfly3.png" class="img_butterfly"><img src="https://kamezzz.github.io/w/butterfly-2.png" class="img_butterfly1"><img src="https://kamezzz.github.io/w/butterfly-1.png" class="img_butterfly2">Mary, looking at you is like looking at my mother. As a mother, she has to take care of her family the same she has to teach her kids to be good people. I know as friends, we will be apart someday, but we will be together someday. Wandering around the center with you, uncle and Tony, I can feel we are like family. Life is full of challenges and adventures, including saying goodbye. Instead, I would like to keep it forever as we will meet one day.</i><div class="et-rotate btn-group design1" et-in="scaleUp" et-out="scaleDown">Next</div></p><br>
+				 <p class="jumbotron" style="font-family: type;font-size: 30px;letter-spacing: 5px;background: floralwhite;"><i><a class="top_tooltip1"><span><img src="https://kamezzz.github.io/Auntie/mmexport1497147670280.jpg" style="width:350px;height:350px;position:absolute;border-radius:50%;margin-top:500px;border:10px solid lightcoral;box-shadow:1px 1px 10px grey;"></span><img src="https://kamezzz.github.io/Upload_New/Auntie_Mary_Change.jpg" class="img_mary"></a><img src="https://kamezzz.github.io/w/butterfly3.png" class="img_butterfly"><img src="https://kamezzz.github.io/w/butterfly-2.png" class="img_butterfly1"><img src="https://kamezzz.github.io/w/butterfly-1.png" class="img_butterfly2">Mary, looking at you is like looking at my mother. As a mother, she has to take care of her family the same she has to teach her kids to be good people. I know as friends, we will be apart someday, but we will be together someday. Wandering around the center with you, uncle and Tony, I can feel we are like family. Life is full of challenges and adventures, including saying goodbye. Instead, I would like to keep it forever as we will meet one day.</i><div class="et-rotate btn-group design1" et-in="scaleUp" et-out="scaleDown">Next</div></p><br>
 			 </div>
 			</div>
 			<br><br><br><br><br><br><br><br><br><br>
@@ -146,7 +136,7 @@
 			 <div class="container-fluid text-center">
 			 <br>
 			 	<h1 style="font-family: tony;font-size: 55px;">Tony</h1>
-			 	<p class="jumbotron wrap" style="font-family: type;font-size: 30px;letter-spacing: 5px;"><img src="https://kamezzz.github.io/Auntie/mmexport1497145874677.jpg" class="img_tony"><img src="https://kamezzz.github.io/w/rabbit1.png" class="img_rabbit"><br>Little boy, as your elder, you are quite polite to call me "brother", but not "uncle". What I can talk to you is what boys usually like, video games, comic books and others. I know those are what boys need before they're grown. As you know, time has flown away, we will have to say "goodbye" although we've just got on well with each other. Don't worry about that, now you just need to be good to your mother and your friends!<img src="https://kamezzz.github.io/w/rabbit2.png" class="img_rabbit1"><br><br></p>
+			 	<p class="jumbotron wrap" style="font-family: type;font-size: 30px;letter-spacing: 5px;"><a class="top_tooltip2"><span><img src="https://kamezzz.github.io/Auntie/mmexport1497145874677.jpg" style="width:350px;height:350px;position:absolute;border-radius:50%;margin-top:480px;border:8px double white;box-shadow:1px 1px 10px grey;margin-left:-550px;"></span><img src="https://kamezzz.github.io/Upload_New/Tony_Change.jpg" class="img_tony"></a><img src="https://kamezzz.github.io/Upload_New/rabbit1_Change.png" class="img_rabbit"><br>Little boy, as your elder, you are quite polite to call me "brother", but not "uncle". What I can talk to you is what boys usually like, video games, comic books and others. I know those are what boys need before they're grown. As you know, time has flown away, we will have to say "goodbye" although we've just got on well with each other. Don't worry about that, now you just need to be good to your mother and your friends!<img src="https://kamezzz.github.io/Upload_New/rabbit2_Change.png" class="img_rabbit1"><br><br></p>
 			  </div>
 			 </div>
 		</div>
@@ -159,14 +149,14 @@
          <br>
          	<div class="col-xs-12 text-center">
         
-         		 <h1 style="font-family: uncle;font-size: 55px;" class="col-xs-4 col-lg-offset-4"><br><strong>Uncle <img src="https://kamezzz.github.io/w/mmexport1506436703232.jpg" class="img_john"> John</strong></h1><br> 
+         		 <h1 style="font-family: uncle;font-size: 55px;" class="col-xs-4 col-lg-offset-4"><br><strong>Uncle <a class="top_tooltip3"><span><img src="https://kamezzz.github.io/w/mmexport1506436703232.jpg" style="width:350px;height:350px;position:absolute;border-radius:50%;margin-top:480px;border:8px outset deepskyblye;box-shadow:1px 1px 10px grey;"></span><img src="https://kamezzz.github.io/Upload_New/Uncle_John_Change.jpg" class="img_john"></a> John</strong></h1><br> 
          		 <p class="wrap jumbotron" style="font-family: ll;font-size: 30px;letter-spacing: 5px;"><i><br>Uncle, when it comes to you, I know it's the last moment to make those webpages. From the beginning to the end, you, Mary and all of my friends were encouraging me to go forward when I met difficulties. It's very tough to get together but very easy to be alone. I have never seen you say goodbye in a formal way to us, it's just like there's something I've been wanting to say "see you soon". I don't know any touching words, on the contrary I know what you taught me "Friends should be those people we must be honest to"!</i><div class="et-rotate btn-group design2" et-in="rotateSlideIn" et-out="rotateSlideOut">Back</div><br><br></p>
          	</div>
          </div>
-	<img src="https://kamezzz.github.io/w/flower_2.png" class="img_uncle_flower">
-        <img src="https://kamezzz.github.io/w/flower_1.png" class="img_uncle_flower1">
-        <img src="https://kamezzz.github.io/w/flower_3.png" class="img_uncle_flower2">
-        <img src="https://kamezzz.github.io/w/flower_4.png" class="img_uncle_flower3">
+	<img src="https://kamezzz.github.io/Upload_New/flower_2_Change.png" class="img_uncle_flower">
+        <img src="https://kamezzz.github.io/Upload_New/flower_1_Change.png" class="img_uncle_flower1">
+        <img src="https://kamezzz.github.io/Upload_New/flower_3_Change.png" class="img_uncle_flower2">
+        <img src="https://kamezzz.github.io/Upload_New/flower_4_Change.png" class="img_uncle_flower3">
 		</div>
 </div>
 
