@@ -22,11 +22,11 @@ button.et-rotate {
   padding: 8px;
 }
 .et-page:nth-child(1) {
-  background: #023;
+  background: radial-gradient(circle at center, #3f5678, #304361, #263a5b, #1c2d49);
 }
 
 .et-page:nth-child(2) {
-  background: black;
+  background: radial-gradient(circle at center, #3f5678, #304361, #263a5b, #1c2d49);
 }
 
 .et-page:nth-child(3) {
