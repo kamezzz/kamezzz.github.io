@@ -74,21 +74,20 @@
 	background-size: 100% 100%;
 }
 [data-accordion-slide="1"] .l-accordion__inside {
- background:repeating-linear-gradient(45deg, white 0%, white 5%, black 0%, black 50%) 0 / 10px 10px;
-  background-position: 0 50%;
+ background:radial-gradient(circle at center, #3f5678 20%, #304361 50%, #263a5b, #1c2d49);
 }
 
 
 [data-accordion-slide="3"] .l-accordion__inside {
-    background: repeating-linear-gradient(-70deg, #ed8bad 0, #ed8bad 25%, #eea1bb 0, #eea1bb 40%) 0 / 45px 10px;
+    background: repeating-linear-gradient(-70deg, #ffe8ed 0, #ffe8ed 25%, pink 0, pink 40%) 0 / 45px 10px;
 }
 
 [data-accordion-slide="5"] .l-accordion__inside {
- background: repeating-linear-gradient(10deg, yellow 0, yellow 35%, purple 0, purple 50%) 0 / 10px 100px;
+ background: repeating-linear-gradient(10deg, #fffe91 0, #fffe91 35%, #f38641 0, #f38641 50%) 0 / 10px 100px;
   background-position: 100% 102%;
 }
  .l {
-	background-image: url(kamezzz.github.io/images/giphy.gif);
+	background-image: url(https://kamezzz.github.io/Trinity/giphy.gif);
 	overflow: hidden;
 	background-position: 50% 50%; 
 	background-size: 100% 100%; white-space: nowrap;
@@ -96,13 +95,13 @@
 	text-transform: uppercase;
 	-webkit-background-clip: text;
 	font: 26vmax/.85 open sans, impact;color: rgba(255,255,255,0);
-	-webkit-text-stroke:3px snow;
+	-webkit-text-stroke:8px snow;
 	color: rgba(255,255,255,0.3);
 	
 }
 
 	 .b {
-	background-image: url(kamezzz.github.io/images/91.jpg);
+	background-image: url(https://kamezzz.github.io/Trinity/91.jpg);
 	overflow: hidden;
 	background-position: 50% 50%; 
 	background-size: 100% 100%; white-space: nowrap;
@@ -110,12 +109,12 @@
 	text-transform: uppercase;
 	-webkit-background-clip: text;
 	font: 26vmax/.85 open sans, impact;color: rgba(255,255,255,0);
-	-webkit-text-stroke:3px hotpink;
+	-webkit-text-stroke:8px hotpink;
 	color: rgba(255,255,255,0.3);
 	
 }
 	 .s {
-	background-image: url(kamezzz.github.io/images/fall-nature-animated-gif-19.gif);
+	background-image: url(https://kamezzz.github.io/Trinity/fall-nature-animated-gif-19.gif);
 	overflow: hidden;
 	background-position: 50% 50%; 
 	background-size: 100% 100%; white-space: nowrap;
@@ -123,7 +122,7 @@
 	text-transform: uppercase;
 	-webkit-background-clip: text;
 	font: 26vmax/.85 open sans, impact;color: rgba(255,255,255,0);
-	-webkit-text-stroke:3px gold;
+	-webkit-text-stroke:8px gold;
 	color: rgba(255,255,255,0.3);
 	
 }
