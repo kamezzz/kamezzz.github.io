@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/bootstrap.css">
 <link rel="stylesheet" href="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/xemo.css">
 <link rel="stylesheet" href="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/animate.css">
-<link rel="shortcut icon" href="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/31821-NYE11V.jpg">	
+<link rel="shortcut icon" href="https://kamezzz.github.io/Upload_New/change%20(2).png">	
 
 <script src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/jquery.min.js"></script>
 <script src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/angular.min.js"></script>
@@ -63,8 +63,8 @@
 }
 	.tiny{position: absolute;width: 15%;left: 0%;top: 0%;}
 	a.top_tooltip{display: inline;position: relative;}
-	a.top_tooltip span{width: 400px;
-		height: 400px;
+	a.top_tooltip span{width: 360px;
+		height: 360px;
 		color: dark;
 		 background-image: -webkit-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px, #ffffff 0px, #ffffff 40px, #85adff 0px, #85adff 60px, #ffffff 0px, #ffffff 80px);
   background-image: -moz-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px, #ffffff 0px, #ffffff 40px, #85adff 0px, #85adff 60px, #ffffff 0px, #ffffff 80px);
@@ -89,7 +89,7 @@
 	a:hover.top_tooltip span{visibility: visible;
 	    opacity: 8;
 		bottom:75px;
-	    left: -355px;
+	    left: -8px;
 		z-index: 999;}
 	.wrapper{position: absolute;bottom: 0%;}
 		.wrapper img{
@@ -108,7 +108,162 @@
 		75{opacity: 0.4;}
 		100%{opacity: 0.2;}
 	}
-	
+		#move{content: "";}
+	#move:hover{animation-duration: 1.5s;animation-fill-mode: both;animation-name: swim;transform-origin: top center;}
+	@keyframes swim{
+		20%{transform: rotate3d(0,0,1,15deg);}
+		40%{transform: rotate3d(0,0,1,-10deg);}
+		60%{transform: rotate3d(0,0,1,5deg);}
+		80%{transform: rotate3d(0,0,1,-5deg);}
+		to{transform: rotate3d(0,0,1,0deg);}
+	}
+	.shine{animation-name: shine;animation-delay: 2s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine{
+		25%{color: orangered;}
+		50%{color: white;}
+		75%{color: orangered;}
+		100%{color: white;}
+	}
+	.shine1{animation-name: shine1;animation-delay: 2.2s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine1{
+		25%{color: greenyellow;}
+		50%{color: white;}
+		75%{color: greenyellow;}
+		100%{color: white;}
+	}
+	.shine2{animation-name: shine2;animation-delay: 2.4s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine2{
+		25%{color: rosybrown;}
+		50%{color: white;}
+		75%{color: rosybrown;}
+		100%{color: white;}
+	}
+	.shine3{animation-name: shine3;animation-delay: 2.6s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine3{
+		25%{color: magenta;}
+		50%{color: white;}
+		75%{color: magenta;}
+		100%{color: white;}
+	}
+	.shine4{animation-name: shine4;animation-delay: 2.8s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine4{
+		25%{color: navajowhite;}
+		50%{color: white;}
+		75%{color: navajowhite;}
+		100%{color: white;}
+	}
+	.shine5{animation-name: shine5;animation-delay: 3s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine5{
+		25%{color: lightcoral;}
+		50%{color: white;}
+		75%{color: lightcoral;}
+		100%{color: white;}
+	}
+	.shine6{animation-name: shine6;animation-delay: 3.2s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine6{
+		25%{color: mediumaquamarine;}
+		50%{color: white;}
+		75%{color: mediumaquamarine;}
+		100%{color: white;}
+	}
+	.shine7{animation-name: shine7;animation-delay: 3.4s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine7{
+		25%{color: gold;}
+		50%{color: white;}
+		75%{color: gold;}
+		100%{color: white;}
+	}
+	.shine8{animation-name: shine8;animation-delay: 3.6s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine8{
+		25%{color: plum;}
+		50%{color: white;}
+		75%{color: plum;}
+		100%{color: white;}
+	}
+	.shine9{animation-name: shine9;animation-delay: 3.8s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine9{
+		25%{color: sienna;}
+		50%{color: white;}
+		75%{color: magenta;}
+		100%{color: white;}
+	}
+	.shine10{animation-name: shine10;animation-delay: 4s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine10{
+		25%{color: silver;}
+		50%{color: white;}
+		75%{color: oldlace;}
+		100%{color: cornsilk;}
+	}
+	.shine11{animation-name: shine11;animation-delay: 4.2s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine11{
+		25%{color: red;}
+		50%{color: white;}
+		75%{color: red;}
+		100%{color: white;}
+	}
+	.shine12{animation-name: shine12;animation-delay: 4.4s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine12{
+		25%{color: teal;}
+		50%{color: white;}
+		75%{color: peru;}
+		100%{color: white;}
+	}
+	.shine13{animation-name: shine13;animation-delay: 4.6s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine13{
+		25%{color: lightskyblue;}
+		50%{color: white;}
+		75%{color: lightskyblue;}
+		100%{color: white;}
+	}
+	.shine14{animation-name: shine14;animation-delay: 4.8s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine14{
+		25%{color:#FF8486;}
+		50%{color: white;}
+		75%{color: #FF8486;}
+		100%{color: white;}
+	}
+	.shine15{animation-name: shine15;animation-delay: 5s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine15{
+		25%{color:#85B9C7;}
+		50%{color: white;}
+		75%{color: #85B9C7;}
+		100%{color: white;}
+	}
+		.shine16{animation-name: shine16;animation-delay: 5.2s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine16{
+		25%{color:#F97ECE;}
+		50%{color: white;}
+		75%{color: #F97ECE;}
+		100%{color: white;}
+	}
+	.shine17{animation-name: shine17;animation-delay: 5.4s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine17{
+		25%{color:#F4F4B3;}
+		50%{color: white;}
+		75%{color: #F4F4B3;}
+		100%{color: white;}
+	}
+	.shine18{animation-name: shine18;animation-delay: 5.6s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine18{
+		25%{color:#78F0E3;}
+		50%{color: white;}
+		75%{color: #78F0E3;}
+		100%{color: white;}
+	}
+	.shine19{animation-name: shine19;animation-delay: 5.8s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine19{
+		25%{color:thistle;}
+		50%{color: white;}
+		75%{color: thistle;}
+		100%{color: white;}
+	}
+	.shine20{animation-name: shine20;animation-delay: 6s;animation-duration: 5.5s;animation-fill-mode: both;animation-iteration-count: infinite;animation-timing-function: ease-in;animation-direction: alternate;}
+	@keyframes shine20{
+		25%{color:slategray;}
+		50%{color: white;}
+		75%{color: slategray;}
+		100%{color: white;}
+	}
 	</style>
 </head>
 
@@ -119,7 +274,7 @@
           <div class="et-page">
           <div class="wrap">
           <p style="font-size: 35px;word-spacing: 13px;line-height: 35px;margin-top: 35px;font-family:xmas;border: 15px solid snow;padding: 35px;color:;text-decoration: underline;font-weight: 300;background: cyan;">
-To LiJing : I don't know how time flies until the moment I turn back to look at the time we had in high school. In those three years, we had jokes but made with every one's bad mind; we had laughters from making jokes; and we had tears, which never dropped from eyes but from heart instead. Perhaps in these three years not studying at school, I missed every one so much that I grasped what I should do to cherish everything I have, not chatting but kind of, not writing emails but similar; right it's keeping in touch with every one from time to time. Life is dark; but with friends, classmates, family, whatever has colors or no colors in this world can be decorations to beautify our life, then life is sparky. By the way, you may feel via these words that my English is the same as before, even I myself feel entirely hard to squeeze a word from my mind.</p><button class="et-rotate btn" et-in="rotateSlideIn" et-out="rotateSlideOut"><div class="animated infinite bounce">Next<span class="star">i</span></div></button><h2><div class="animated infinite headShake">^&*1234567890tzxcvbnm</div></h2></div>
+To LiJing : I don't know how time flies until the moment I turn back to look at the time we had in high school. In those three years, we had jokes but made with every one's bad mind; we had laughters from making jokes; and we had tears, which never dropped from eyes but from heart instead. Perhaps in these three years not studying at school, I missed every one so much that I grasped what I should do to cherish everything I have, not chatting but kind of, not writing emails but similar; right it's keeping in touch with every one from time to time. Life is dark; but with friends, classmates, family, whatever has colors or no colors in this world can be decorations to beautify our life, then life is sparky. By the way, you may feel via these words that my English is the same as before, even I myself feel entirely hard to squeeze a word from my mind.</p><button class="et-rotate btn" et-in="rotateSlideIn" et-out="rotateSlideOut"><div class="animated infinite bounce">Next<span class="star">i</span></div></button><h2><div class="animated infinite headShake"><span class="shine">^</span><span class="shine1">&</span><span class="shine2">*</span><span class="shine3">2</span><span class="shine4">3</span><span class="shine5">4</span><span class="shine6">5</span><span class="shine7">6</span><span class="shine8">7</span><span class="shine9">8</span><span class="shine10">9</span><span class="shine11">0</span><span class="shine12">t</span><span class="shine13">z</span><span class="shine14">x</span><span class="shine15">c</span><span class="shine16">v</span><span class="shine17">b</span><span class="shine18">n</span><span class="shine19">m</span><span class="shine20">a</span></div></h2></div>
         <h1>1234567890123456789012345678901234567890</h1>    
          </div>
          <div class="et-page">
@@ -127,30 +282,30 @@ To LiJing : I don't know how time flies until the moment I turn back to look at 
             <p style="color: black;font-size: 35px;word-spacing: 13px;margin-top: 35px;font-family: xmas;border: 15px solid snow;padding: 35px;line-height: 35px;background: cyan;font-weight: 300;text-decoration: underline;">Remember what Kamen Rider we watched every night "at the coner of my bed" in dorm? Speaking of Kamen Rider, thanks to it, we became good friends and talked about that in our sleeping time. Hee, and that <strong>"Hoar of OOO". </strong> Words are tough to be made when somebody you want to talk to as if he/she was in front of you, and raindrops came out dramatically. Friends shouldn't be like balloons, no matter how hard a person with lots of senses tries, the balloons still fly away. Juat like the song tells me: "Sobbing cannot reverse the situation of parting, because we all have known that it will come sooner or later." So, to the end, I hope you'll be on a journey to find a job you're passonate about. And.............  There are thousands of words I can't write down as I don't want any words to come with tears.</p>
            <button class="et-rotate btn" et-in="rotateSlideIn" et-out="rotateSlideOut"><div class="animated infinite lightSpeedIn">Back<span class="star1">3</span></div></button>
            <embed class="tiny" src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/1498797859_84.svg">
-           <div class="wrapper animated infinite bounce"><a class="top_tooltip" href="#"><embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/1498802621_27.svg" style="width: 20%;"><span>
+           <div class="wrapper animated infinite bounce"><a class="top_tooltip" href="#"><embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/1498802621_27.svg" style="width: 65px;"><span>
          	<img src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/mmexport1498393371077.jpg" width="100%"></span></a></div>
          	<div class="light"><embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/1498808656__star.svg" width="10%"></div>
-         	<img src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/65cfefa22f665cca357147c3bb1a2219.png" width="15%" style="position: absolute;right: -9%;bottom:-1%;">
+         	<img src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/65cfefa22f6https://kamezzz.github.io/Upload_New/Christmas-tree2.png65cca357147c3bb1a2219.png" width="15%" style="position: absolute;right: -9%;bottom:-1%;">
            </div>
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/%E5%9B%BE%E5%B1%82%200.svg" style="position: absolute;top: 0;left: 5%;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/1.svg" style="position: absolute;top: 0;left: 10%;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/2.svg" style="position: absolute;top: 0;left: 15%;z-index: -99;" >
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/3.svg" style="position: absolute;top: 0;left: 20%;z-index: -99;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/4.svg" style="position: absolute;top: 0;left: 25%;z-index: -99;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/5.svg" style="position: absolute;top: 0;left: 30%;z-index: -99;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/6.svg" style="position: absolute;bottom: 5%;right: 40%;height:15%;"  class="animated infinite swing">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/7.svg" style="position: absolute;top: 0;left: 40%;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/8.svg" style="position: absolute;bottom: 5%;left: 45%;height:15%;"  class="animated infinite swing">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/9.svg" style="position: absolute;bottom: 5%;left: 50%;height:15%"  class="animated infinite swing">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/1.svg" style="position: absolute;top: 0;right: 10%;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/2.svg" style="position: absolute;top: 0;right: 15%;z-index: -99;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/3.svg" style="position: absolute;top: 0;right: 20%;z-index: -99;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/4.svg" style="position: absolute;top: 0;right: 25%;z-index: -99;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/5.svg" style="position: absolute;top: 0;right: 30%;z-index: -99;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/6.svg" style="position: absolute;bottom: 5%;right: 35%;height:15%;"  class="animated infinite swing">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/7.svg" style="position: absolute;top: 0;right: 40%;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/8.svg" style="position: absolute;top: 0;right: 45%;height:15%;">
-           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/9.svg" style="position: absolute;top: 0;right: 50%;height:15%;">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/%E5%9B%BE%E5%B1%82%200.svg" style="position: absolute;top: 0;left: 5%;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/1.svg" style="position: absolute;top: 0;left: 10%;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/2.svg" style="position: absolute;top: 0;left: 15%;z-index: -99;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/3.svg" style="position: absolute;top: 0;left: 20%;z-index: -99;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/4.svg" style="position: absolute;top: 0;left: 25%;z-index: -99;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/5.svg" style="position: absolute;top: 0;left: 30%;z-index: -99;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/6.svg" style="position: absolute;right: 40%;height:200px;margin-top:-103px;"  class="animated infinite swing">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/7.svg" style="position: absolute;top: 0;left: 40%;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/8.svg" style="position: absolute;left: 45%;height:200px;margin-top:-103px"  class="animated infinite swing">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/9.svg" style="position: absolute;left: 50%;height:200px;margin-top:-103px;"  class="animated infinite swing">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/1.svg" style="position: absolute;top: 0;right: 10%;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/2.svg" style="position: absolute;top: 0;right: 15%;z-index: -99;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/3.svg" style="position: absolute;top: 0;right: 20%;z-index: -99;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/4.svg" style="position: absolute;top: 0;right: 25%;z-index: -99;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/5.svg" style="position: absolute;top: 0;right: 30%;z-index: -99;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/6.svg" style="position: absolute;right: 35%;height:200px;margin-top:-103px;"  class="animated infinite swing">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/7.svg" style="position: absolute;top: 0;right: 40%;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/8.svg" style="position: absolute;top: 0;right: 45%;height:150px;" id="move">
+           <embed src="https://kamezzz.github.io/Sensei-Bear-LJ/LJ/9.svg" style="position: absolute;top: 0;right: 50%;height:150px;" id="move">
          </div>
        </div>
     </div>
