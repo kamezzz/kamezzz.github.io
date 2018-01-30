@@ -109,7 +109,7 @@
 	text-transform: uppercase;
 	-webkit-background-clip: text;
 	font: 26vmax/.85 open sans, impact;color: rgba(255,255,255,0);
-	-webkit-text-stroke:8px hotpink;
+	-webkit-text-stroke:8px #ff9ab9;
 	color: rgba(255,255,255,0.3);
 	
 }
@@ -122,7 +122,7 @@
 	text-transform: uppercase;
 	-webkit-background-clip: text;
 	font: 26vmax/.85 open sans, impact;color: rgba(255,255,255,0);
-	-webkit-text-stroke:8px gold;
+	-webkit-text-stroke:8px #fd9a3d;
 	color: rgba(255,255,255,0.3);
 	
 }
