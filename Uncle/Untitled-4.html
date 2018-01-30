@@ -7,7 +7,6 @@
 <meta name="keywords" content="Kamezzz-Uncle_Ver_2">	
 <title>Uncle -- 2</title>
 <link rel="stylesheet" href="https://kamezzz.github.io/Uncle/bootstrap.css">
-<link rel="stylesheet" href="https://kamezzz.github.io/Uncle/animate.css">
 <link rel="stylesheet" href="https://kamezzz.github.io/Uncle/lightbox.css">
 <link rel="short icon" href="https://kamezzz.github.io/Uncle/bitbug_favicon.ico">
 <style>
@@ -208,6 +207,34 @@
 		.pencil{margin-top: 50px;}
 		.eraser{bottom:3%;}
 	}
+	.bounce{
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: bounce;
+	transform-origin: center bottom;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
 	</style>
 </head>
 
@@ -221,7 +248,7 @@
 <embed src="https://kamezzz.github.io/Uncle/star%20(5).svg" style="width: 3vh;" class="move5">
 <embed src="https://kamezzz.github.io/Uncle/star%20(6).svg" style="width: 3vh;" class="move6">
 <embed src="https://kamezzz.github.io/Uncle/star%20(7).svg" style="width: 3vh;" class="move7">
-<h1>" Welcome to <button class="bounce infinite" style="background:rgba(255,255,255,0);border:0px white solid;"><a href="https://kamezzz.github.io/Uncle/Uncle.html">my page</a></button> -- Ver2 "<hr></h1>
+<h1>" Welcome to <button class="bounce" style="background:rgba(255,255,255,0);border:0px white solid;"><a href="https://kamezzz.github.io/Uncle/Uncle.html">my page</a></button> -- Ver2 "<hr></h1>
 <div class="container1">
 <div class="container" id="text_container">
 <div class="paper">
