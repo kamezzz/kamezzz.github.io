@@ -3706,13 +3706,13 @@ blockquote {
     height: 54vh;
     border-radius: 12px;
     outline: transparent solid 1px；
+     transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-1 {
     background:url(https://kamezzz.github.io/images/4dab7bbfd9f235bf02d2507f131ec767.png);
 	box-shadow: 2px 1px 2px 1px grey;
 	position: relative;
-	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-2 {
@@ -3720,7 +3720,6 @@ blockquote {
 	background-size: 100% 100%;
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
-	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-3 {
@@ -3728,7 +3727,6 @@ blockquote {
 	background-size: 100% 100%;
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
-	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-4 {
@@ -3736,20 +3734,17 @@ blockquote {
 	background-size: 100% 100%;
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
-	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-5 {
     background:url(https://kamezzz.github.io/Upload_New/Uncle_Background_Change.png);
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
-	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-6 {
 	background: url(https://kamezzz.github.io/images/star-background.jpg);
 	box-shadow: 2px 1px 2px 1px grey;
-	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__bullets {
