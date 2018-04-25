@@ -3706,19 +3706,20 @@ blockquote {
     height: 54vh;
     border-radius: 12px;
     outline: transparent solid 1px；
-    transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-1 {
     background:url(https://kamezzz.github.io/images/4dab7bbfd9f235bf02d2507f131ec767.png);
 	box-shadow: 2px 1px 2px 1px grey;
 	position: relative;
+	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-2 {
     background:url(https://kamezzz.github.io/images/235082-13100915505653.jpg);
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
+	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-3 {
@@ -3726,6 +3727,7 @@ blockquote {
 	background-size: 100% 100%;
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
+	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-4 {
@@ -3733,17 +3735,20 @@ blockquote {
 	background-size: 100% 100%;
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
+	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-5 {
     background:url(https://kamezzz.github.io/images/63ff0b2a80e609a4bb5b966b00d973be.jpg);
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
+	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__slide>.bg.i-6 {
 	background: url(https://kamezzz.github.io/images/star-background.jpg);
 	box-shadow: 2px 1px 2px 1px grey;
+	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .slider__bullets {
@@ -3864,7 +3869,7 @@ blockquote {
 .white_content{display: none;position: absolute;top: 25%;left: 25%;width: 55%;height: 55%;padding: 20px;border: 10px solid purple;background-color: white;z-index: 1002;overflow: auto;}
 .w{position: absolute;font-weight: bold;text-transform: uppercase; transition: 0.3s, transform 0.3s; backface-visibility: visible; border: 3px solid #fff; background-color: aquamarine;top:0;}
 .w:hover{opacity:3;transform: translateY(-50%) translateX(-50%) scale(1); display: block;background-color: yellowgreen;transform: transparent;}
-.a{position: absolute;font-weight: bold;text-transform: uppercase; transition: 0.3s, transform 0.3s; backface-visibility: visible; border: 3ps solid #fff; background-color: thistle;top: 0;}
+.a{position: absolute;font-weight: bold;text-transform: uppercase; transition: 0.3s, transform 0.3s; backface-visibility: visible; border: 3px solid #fff; background-color: thistle;top: 0;}
 .a:hover{opacity: 3;transform: translateY(-50%) translateX(-50%) scale(1); display: block;background-color: beige;transform: transparent;}
 .s{position: absolute;font-weight: bold;text-transform: uppercase;transition: 0.3s, transform 0.3s; backface-visibility: visible; border: 3px solid #fff; background-color: deepskyblue; top: 0;}
 .s:hover{opacity: 3;transform: translateY(-50%) translateX(-50%) scale(1); display: block;background-color:chocolate;transform: transparent;}
