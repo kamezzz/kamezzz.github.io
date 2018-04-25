@@ -3857,23 +3857,24 @@ blockquote {
     right: 36px
 }
 
-::-webkit-scrollbar{
-    width:8px;
-    border-radius:50px;	
+::-webkit-scrollbar {
+    width: 8px;
+	border-radius: 50px;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background-color: white;
     border: 1px solid #ccc;
-    border-radius:20px;
+	border-radius: 20px;
 }
-::-webkit-scrollbar-thumb:{
-    background-color:black;
-    overflow-x: hidden;
-    border-radius: 20px;	
+::-webkit-scrollbar-thumb {
+    background-color: black;
+	overflow-x: hidden;
+	border-radius: 20px;
 }
-::-webkit-scrollbar-thumb:hover{
-    background-color:#585858;
+::-webkit-scrollbar-thumb:hover {
+  background-color: #585858;
 }
+	
 #i:hover{background-image: url(https://kamezzz.github.io/images/hdImg_dbbcd124aa56d68e637f070f401c45641482923779433.jpg);}
 #i{background-repeat: no-repeat;background-size: 100% 100%;}
 .word{position: absolute;font-weight: bold;text-transform: uppercase;transition: 0.3s,transform 0.3s;backface-visibility:visible;border: 3px solid #fff;background-color:black;}
