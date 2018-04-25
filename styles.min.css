@@ -3717,6 +3717,7 @@ blockquote {
 
 .slider__slide>.bg.i-2 {
     background:url(https://kamezzz.github.io/Upload_New/W_Test3.png);
+	background-size: 100% 100%;
 	box-shadow: 2px 1px 2px 1px grey;
 	position:relative;
 	 transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
