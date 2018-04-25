@@ -3705,7 +3705,7 @@ blockquote {
     height: 420px;
     height: 54vh;
     border-radius: 12px;
-    outline: transparent solid 1px；
+    outline: transparent solid 1px;
      transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
